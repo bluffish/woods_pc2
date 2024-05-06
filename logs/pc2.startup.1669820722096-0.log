@@ -1,0 +1,28 @@
+221130 090522.097|CONFIG|qtp988458918-23|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2-template\WebTeamInterface-1.1\logs directory.
+221130 090522.097|INFO|qtp988458918-23|info|
+221130 090522.097|INFO|qtp988458918-23|info|Version 9 () Java ver 1.8.0_51 build  Windows 8.1 6.3 (amd64) 
+221130 090522.097|INFO|qtp988458918-23|startLog|Working directory is C:\Users\18328\Desktop\pc2-template\WebTeamInterface-1.1
+221130 090522.098|INFO|qtp988458918-23|startLog|Process id is 13684@DESKTOP-D75BQTV
+221130 090522.098|INFO|qtp988458918-23|start|Starting ConnectionManager...
+221130 090522.103|INFO|qtp988458918-23|start|Started ConnectionManager
+221130 090522.106|INFO|qtp988458918-23|setClientServerAndPort|INIFile File location: file:/C:/Users/18328/Desktop/pc2-template/WebTeamInterface-1.1/pc2v9.ini
+221130 090522.106|INFO|qtp988458918-23|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+221130 090522.106|INFO|qtp988458918-23|info|Contacting server at localhost:50002
+221130 090522.106|INFO|qtp988458918-23|connectToMyServer|Connecting to localhost:50002
+221130 090522.110|INFO|Thread-136|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=57434]--2884249487991379481)
+221130 090849.360|INFO|Thread-136|receive|SocketException in receive for Socket[addr=localhost/127.0.0.1,port=50002,localport=57434]--2884249487991379481
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.net.SocketInputStream.read (Unknown Source)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (Unknown Source)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (Unknown Source)
+|    at java.io.ObjectInputStream.readObject0 (Unknown Source)
+|    at java.io.ObjectInputStream.readObject (Unknown Source)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+221130 090849.360|FINER|Thread-136|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:156)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)

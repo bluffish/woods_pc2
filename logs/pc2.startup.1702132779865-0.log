@@ -1,0 +1,30 @@
+231209 083939.865|CONFIG|qtp135640095-6001|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+231209 083939.865|INFO|qtp135640095-6001|info|
+231209 083939.865|INFO|qtp135640095-6001|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+231209 083939.865|INFO|qtp135640095-6001|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+231209 083939.873|INFO|qtp135640095-6001|startLog|Process id is 15028@DESKTOP-D75BQTV
+231209 083939.873|INFO|qtp135640095-6001|start|Starting ConnectionManager...
+231209 083939.879|INFO|qtp135640095-6001|start|Started ConnectionManager
+231209 083939.882|INFO|qtp135640095-6001|setClientServerAndPort|INIFile File location: file:/C:/Users/18328/Desktop/pc2/WebTeamInterface-1.1/pc2v9.ini
+231209 083939.882|INFO|qtp135640095-6001|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+231209 083939.882|INFO|qtp135640095-6001|info|Contacting server at localhost:50002
+231209 083939.882|INFO|qtp135640095-6001|connectToMyServer|Connecting to localhost:50002
+231209 083939.890|INFO|Thread-19751|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=51708]-5682045814415586453)
+231209 083939.890|INFO|Thread-19751|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=51708]-5682045814415586453 key is com.sun.crypto.provider.DESKey@fffe7864
+231209 083939.890|INFO|Thread-19751|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+231209 103946.975|INFO|Thread-19751|receive|EOFException in receive for Socket[addr=localhost/127.0.0.1,port=50002,localport=51708]-5682045814415586453
+|java.io.EOFException: null
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3244)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1708)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:538)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:496)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+231209 103946.975|FINER|Thread-19751|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:159)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+231209 103946.975|FINER|Thread-19751|run - e.getmessage is null()|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:159)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)

@@ -1,0 +1,49 @@
+231209 094210.499|CONFIG|qtp135640095-21300|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+231209 094210.499|INFO|qtp135640095-21300|info|
+231209 094210.499|INFO|qtp135640095-21300|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+231209 094210.499|INFO|qtp135640095-21300|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+231209 094210.499|INFO|qtp135640095-21300|startLog|Process id is 15028@DESKTOP-D75BQTV
+231209 094210.499|INFO|qtp135640095-21300|start|Starting ConnectionManager...
+231209 094210.506|INFO|qtp135640095-21300|start|Started ConnectionManager
+231209 094210.506|INFO|qtp135640095-21300|setClientServerAndPort|INIFile File location: file:/C:/Users/18328/Desktop/pc2/WebTeamInterface-1.1/pc2v9.ini
+231209 094210.506|INFO|qtp135640095-21300|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+231209 094210.506|INFO|qtp135640095-21300|info|Contacting server at localhost:50002
+231209 094210.506|INFO|qtp135640095-21300|connectToMyServer|Connecting to localhost:50002
+231209 094210.513|INFO|Thread-22942|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=65398]--1836923485785020311)
+231209 094210.513|INFO|Thread-22942|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=65398]--1836923485785020311 key is com.sun.crypto.provider.DESKey@18576
+231209 094210.513|INFO|Thread-22942|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+231209 094210.513|INFO|Thread-22942|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    a2f73d7c cc71be41 d45722f1 4fe83af9 b8328321 21e74d49 297a5f1c 5ee85697
+    2f3bfcbb 1849fe18 55e6dda7 5c68bea6 0932eada a53eb407 378f3f32 b188b6d3
+    5e6355c1 28475760 54d12def 26546642 d1060232 99a462d9 f9bfee31 9bf75f33
+    1c43923d b54bb9bc 49c83b5f 3677df4b 8a67093f 06a385d4 15240f33 28036976
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+231209 094210.513|INFO|Thread-22942|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@7220a007
+231209 125144.085|INFO|Thread-22942|receive|SocketException in receive for Socket[addr=localhost/127.0.0.1,port=50002,localport=65398]--1836923485785020311
+|java.net.SocketException: Connection reset
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:320)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:347)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:800)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:966)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:961)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2905)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3232)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3242)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1708)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:538)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:496)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+231209 125144.172|FINER|Thread-22942|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:156)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)

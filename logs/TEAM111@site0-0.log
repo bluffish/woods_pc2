@@ -1,0 +1,25 @@
+231209 082110.131|CONFIG|qtp135640095-859|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+231209 082110.131|INFO|qtp135640095-859|info|
+231209 082110.131|INFO|qtp135640095-859|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+231209 082110.131|INFO|qtp135640095-859|info|Login: team111 (aka team111)
+231209 082110.131|INFO|qtp135640095-859|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+231209 082110.131|INFO|qtp135640095-859|startLog|Process id is 15028@DESKTOP-D75BQTV
+231209 082110.131|INFO|qtp135640095-859|info|Contacting server at localhost:50002 as TEAM111 @ site 0
+231209 082110.131|INFO|qtp135640095-859|info|sendLoginRequest start - sending from TEAM111 @ site 0
+231209 082110.131|INFO|qtp135640095-859|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #137 TEAM111 @ site 0 -> SERVER0 @ site 0
+231209 082110.131|INFO|qtp135640095-859|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #137 TEAM111 @ site 0 -> SERVER0 @ site 0
+231209 082110.131|INFO|qtp135640095-859|info|sendLoginRequest end - packet sent.
+231209 082110.131|INFO|Thread-5170|run|send(Serializable)
+231209 082110.138|INFO|Thread-5169|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+231209 082110.138|INFO|Thread-5171|info| receiveObject(S) start got Packet[LOGIN_FAILED] #841 SERVER0 @ site 1 -> TEAM111 @ site 0
+231209 082110.138|INFO|Thread-5171|dumpPacket|Packet LOGIN_FAILED (Seq #841, o#841 ) recieveObject
+231209 082110.138|INFO|Thread-5171|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 082110.138|INFO|Thread-5171|dumpPacket|    To: TEAM111 @ site 0
+231209 082110.138|INFO|Thread-5171|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+231209 082110.138|INFO|Thread-5171|info|handlePacket start Packet[LOGIN_FAILED] #841 SERVER0 @ site 1 -> TEAM111 @ site 0
+231209 082110.138|INFO|Thread-5171|dumpPacket|Packet LOGIN_FAILED (Seq #841, o#841 ) handlePacket
+231209 082110.138|INFO|Thread-5171|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 082110.138|INFO|Thread-5171|dumpPacket|    To: TEAM111 @ site 0
+231209 082110.138|INFO|Thread-5171|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+231209 082110.138|INFO|Thread-5171|info| receiveObject(S) end   got Packet[LOGIN_FAILED] #841 SERVER0 @ site 1 -> TEAM111 @ site 0
+231209 125144.079|INFO|Thread-5169|connectionDropped|connectionDropped(ConnectionHandlerID myConnectionID) 

@@ -1,0 +1,32 @@
+230919 083550.282|CONFIG|main|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+230919 083550.282|INFO|main|info|
+230919 083550.282|INFO|main|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+230919 083550.282|INFO|main|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+230919 083550.313|INFO|main|startLog|Process id is 11420@DESKTOP-D75BQTV
+230919 083550.313|INFO|main|start|Starting ConnectionManager...
+230919 083550.392|INFO|main|start|Started ConnectionManager
+230919 083550.392|INFO|main|setClientServerAndPort|INIFile File location: file:/C:/Users/18328/Desktop/pc2/WebTeamInterface-1.1/pc2v9.ini
+230919 083550.409|INFO|main|setClientServerAndPort|setClientServerAndPort  localhost parsed as  localhost port 50002
+230919 083550.409|INFO|main|info|Contacting server at  localhost:50002
+230919 083550.409|INFO|main|connectToMyServer|Connecting to  localhost:50002
+230919 083550.409|INFO|main|<init>|could not resolve host: localhost
+230919 083550.409|INFO|main|connectToMyServer|Could not ConnectToMyServer()
+230919 083550.409|INFO|main|start|Exception contacting my server 
+|edu.csus.ecs.pc2.core.transport.TransportException:  localhost
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:198)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:100)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:3105)
+|    at edu.csus.ecs.pc2.api.ServerConnection.login (ServerConnection.java:158)
+|    at config.WebServer.verifyPC2ScoreboardLogin (Unknown Source)
+|    at config.WebServer.startServer (Unknown Source)
+|    at config.JettyConfig.main (Unknown Source)
+230919 083550.409|INFO|main|info|Unable to contact server at  localhost:0  localhost
+230919 083550.409|SEVERE|main|fatalError|Unable to contact server at:  localhost:50002, contact staff
+|edu.csus.ecs.pc2.core.transport.TransportException:  localhost
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:198)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:100)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:3105)
+|    at edu.csus.ecs.pc2.api.ServerConnection.login (ServerConnection.java:158)
+|    at config.WebServer.verifyPC2ScoreboardLogin (Unknown Source)
+|    at config.WebServer.startServer (Unknown Source)
+|    at config.JettyConfig.main (Unknown Source)

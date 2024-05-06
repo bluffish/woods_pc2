@@ -1,0 +1,42 @@
+221210 092749.141|CONFIG|qtp996796369-15106|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+221210 092749.142|INFO|qtp996796369-15106|info|
+221210 092749.142|INFO|qtp996796369-15106|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+221210 092749.142|INFO|qtp996796369-15106|info|Login: team3 (aka team3)
+221210 092749.142|INFO|qtp996796369-15106|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+221210 092749.142|INFO|qtp996796369-15106|startLog|Process id is 20708@DESKTOP-D75BQTV
+221210 092749.142|INFO|qtp996796369-15106|info|Contacting server at 212.212.212.212:50002 as TEAM3 @ site 0
+221210 092749.142|INFO|Thread-15126|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/212.212.212.212,port=50002,localport=53157]--8400990384853400519 key is com.sun.crypto.provider.DESKey@1847d
+221210 092749.142|INFO|Thread-15126|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+221210 092749.142|INFO|Thread-15126|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    e087ba6d 5c18f9fd 9efcd8d9 396c7ba0 19c7bbbe 764f379a 0bea1770 c500e0b4
+    0e4c76df 9bc0050b 9c43c1db d0e52ee3 108b2bc4 1ee5f031 5259075c 97ffd748
+    c264219d 6a3180a4 c348371b 3444d5fd 8f7975f6 be03ff6a 0de7494d aa55d0bd
+    2c78f7ce ee65e5c4 6c96d657 f6a98fd9 4fddfc37 a1416fb6 6b2b83db 338aa0bd
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+221210 092749.143|INFO|qtp996796369-15106|info|sendLoginRequest start - sending from TEAM3 @ site 0
+221210 092749.143|INFO|Thread-15126|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@36100ad9
+221210 092749.143|INFO|qtp996796369-15106|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #271 TEAM3 @ site 0 -> SERVER0 @ site 0
+221210 092749.143|INFO|qtp996796369-15106|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #271 TEAM3 @ site 0 -> SERVER0 @ site 0
+221210 092749.143|INFO|qtp996796369-15106|info|sendLoginRequest end - packet sent.
+221210 092749.143|INFO|Thread-15127|run|send(Serializable)
+221210 092749.145|INFO|Thread-15126|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+221210 092749.146|INFO|Thread-15128|info| receiveObject(S) start got Packet[LOGIN_FAILED] #1628 SERVER0 @ site 1 -> TEAM3 @ site 0
+221210 092749.146|INFO|Thread-15128|dumpPacket|Packet LOGIN_FAILED (Seq #1628, o#1628 ) recieveObject
+221210 092749.146|INFO|Thread-15128|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 092749.146|INFO|Thread-15128|dumpPacket|    To: TEAM3 @ site 0
+221210 092749.146|INFO|Thread-15128|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+221210 092749.146|INFO|Thread-15128|info|handlePacket start Packet[LOGIN_FAILED] #1628 SERVER0 @ site 1 -> TEAM3 @ site 0
+221210 092749.146|INFO|Thread-15128|dumpPacket|Packet LOGIN_FAILED (Seq #1628, o#1628 ) handlePacket
+221210 092749.146|INFO|Thread-15128|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 092749.146|INFO|Thread-15128|dumpPacket|    To: TEAM3 @ site 0
+221210 092749.146|INFO|Thread-15128|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+221210 092749.146|INFO|Thread-15128|info| receiveObject(S) end   got Packet[LOGIN_FAILED] #1628 SERVER0 @ site 1 -> TEAM3 @ site 0

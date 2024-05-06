@@ -1,0 +1,49 @@
+231130 163531.561|CONFIG|qtp996796369-332|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+231130 163531.561|INFO|qtp996796369-332|info|
+231130 163531.562|INFO|qtp996796369-332|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+231130 163531.562|INFO|qtp996796369-332|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+231130 163531.562|INFO|qtp996796369-332|startLog|Process id is 29484@DESKTOP-D75BQTV
+231130 163531.562|INFO|qtp996796369-332|start|Starting ConnectionManager...
+231130 163531.575|INFO|qtp996796369-332|start|Started ConnectionManager
+231130 163531.575|INFO|qtp996796369-332|setClientServerAndPort|INIFile File location: file:/C:/Users/18328/Desktop/pc2/WebTeamInterface-1.1/pc2v9.ini
+231130 163531.575|INFO|qtp996796369-332|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+231130 163531.575|INFO|qtp996796369-332|info|Contacting server at localhost:50002
+231130 163531.575|INFO|qtp996796369-332|connectToMyServer|Connecting to localhost:50002
+231130 163531.578|INFO|Thread-1610|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=51057]-3677948342507790778)
+231130 163531.586|INFO|Thread-1610|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=51057]-3677948342507790778 key is com.sun.crypto.provider.DESKey@fffe7b0f
+231130 163531.586|INFO|Thread-1610|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+231130 163531.586|INFO|Thread-1610|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    87de4387 dd2a1e3d 2a9c035b 07949db9 cafb38e5 3ca70310 4a3f4e42 da0c0550
+    e1a32c2c f53007d6 336f151c dc4e6d79 ff0396ed 639a9f3c cae8101e 9444fc26
+    3a3b5143 4f0bb550 3ebc2168 57ac1480 14879c07 24d968d2 d0d2b7df 2e4ba164
+    80358b32 2f768acf 64e81fb2 0b95c2ac 89dae37b 5eeddeee 57750022 ff92a051
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+231130 163531.586|INFO|Thread-1610|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@75d92662
+231130 172343.236|INFO|Thread-1610|receive|SocketException in receive for Socket[addr=localhost/127.0.0.1,port=50002,localport=51057]-3677948342507790778
+|java.net.SocketException: Connection reset
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:320)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:347)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:800)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:966)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:961)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2905)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3232)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3242)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1708)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:538)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:496)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+231130 172343.239|FINER|Thread-1610|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:156)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
