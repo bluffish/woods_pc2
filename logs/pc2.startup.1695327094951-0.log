@@ -1,0 +1,33 @@
+230921 151134.960|CONFIG|qtp18242360-23|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+230921 151134.960|INFO|qtp18242360-23|info|
+230921 151134.961|INFO|qtp18242360-23|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+230921 151134.961|INFO|qtp18242360-23|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+230921 151134.961|INFO|qtp18242360-23|startLog|Process id is 1544@DESKTOP-D75BQTV
+230921 151134.961|INFO|qtp18242360-23|start|Starting ConnectionManager...
+230921 151134.961|INFO|qtp18242360-23|start|Started ConnectionManager
+230921 151134.972|INFO|qtp18242360-23|setClientServerAndPort|INIFile File location: file:/C:/Users/18328/Desktop/pc2/WebTeamInterface-1.1/pc2v9.ini
+230921 151134.972|INFO|qtp18242360-23|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+230921 151134.972|INFO|qtp18242360-23|info|Contacting server at localhost:50002
+230921 151134.972|INFO|qtp18242360-23|connectToMyServer|Connecting to localhost:50002
+230921 151134.979|INFO|Thread-91|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=53209]-2819006387687662637)
+230921 151134.979|INFO|Thread-91|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=53209]-2819006387687662637 key is com.sun.crypto.provider.DESKey@fffe7a85
+230921 151134.979|INFO|Thread-91|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+230921 165528.083|INFO|Thread-91|receive|SocketException in receive for Socket[addr=localhost/127.0.0.1,port=50002,localport=53209]-2819006387687662637
+|java.net.SocketException: Connection reset
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:320)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:347)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:800)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:966)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:961)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2905)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3232)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3242)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1708)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:538)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:496)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+230921 165528.085|FINER|Thread-91|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:156)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)

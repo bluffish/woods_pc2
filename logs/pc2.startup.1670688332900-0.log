@@ -1,0 +1,50 @@
+221210 100532.903|CONFIG|qtp1613095350-24|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+221210 100532.904|INFO|qtp1613095350-24|info|
+221210 100532.904|INFO|qtp1613095350-24|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+221210 100532.904|INFO|qtp1613095350-24|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+221210 100532.905|INFO|qtp1613095350-24|startLog|Process id is 22344@DESKTOP-D75BQTV
+221210 100532.905|INFO|qtp1613095350-24|start|Starting ConnectionManager...
+221210 100532.911|INFO|qtp1613095350-24|start|Started ConnectionManager
+221210 100532.912|INFO|qtp1613095350-24|setClientServerAndPort|INIFile File location: file:/C:/Users/18328/Desktop/pc2/WebTeamInterface-1.1/pc2v9.ini
+221210 100532.912|INFO|qtp1613095350-24|setClientServerAndPort|setClientServerAndPort 212.212.212.212 parsed as 212.212.212.212 port 50002
+221210 100532.913|INFO|qtp1613095350-24|info|Contacting server at 212.212.212.212:50002
+221210 100532.913|INFO|qtp1613095350-24|connectToMyServer|Connecting to 212.212.212.212:50002
+221210 100532.914|INFO|Thread-53|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/212.212.212.212,port=50002,localport=55518]--5824723333195640169)
+221210 150258.256|INFO|Thread-53|receive|SocketException in receive for Socket[addr=/212.212.212.212,port=50002,localport=55518]--5824723333195640169
+|java.net.SocketException: An established connection was aborted by the software in your host machine
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:322)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:347)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:800)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:966)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:961)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2905)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3232)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3242)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1708)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:538)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:496)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+221210 150258.317|FINER|Thread-53|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: An established connection was aborted by the software in your host machine
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:156)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+221210 150258.317|INFO|Thread-53|receive|SocketException in receive for Socket[addr=/212.212.212.212,port=50002,localport=55518]--5824723333195640169
+|java.net.SocketException: Connection reset
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:320)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:347)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:800)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:966)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:961)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2905)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3232)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3242)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1708)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:538)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:496)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+221210 150258.319|FINER|Thread-53|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:156)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)

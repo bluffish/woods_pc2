@@ -1,0 +1,31 @@
+231209 103945.170|CONFIG|qtp135640095-45781|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+231209 103945.170|INFO|qtp135640095-45781|info|
+231209 103945.170|INFO|qtp135640095-45781|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+231209 103945.170|INFO|qtp135640095-45781|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+231209 103945.170|INFO|qtp135640095-45781|startLog|Process id is 15028@DESKTOP-D75BQTV
+231209 103945.178|INFO|qtp135640095-45781|start|Starting ConnectionManager...
+231209 103945.178|INFO|qtp135640095-45781|start|Started ConnectionManager
+231209 103945.178|INFO|qtp135640095-45781|setClientServerAndPort|INIFile File location: file:/C:/Users/18328/Desktop/pc2/WebTeamInterface-1.1/pc2v9.ini
+231209 103945.178|INFO|qtp135640095-45781|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+231209 103945.178|INFO|qtp135640095-45781|info|Contacting server at localhost:50002
+231209 103945.178|INFO|qtp135640095-45781|connectToMyServer|Connecting to localhost:50002
+231209 103945.186|INFO|Thread-49297|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=59971]--8792150243422556498)
+231209 125144.084|INFO|Thread-49297|receive|SocketException in receive for Socket[addr=localhost/127.0.0.1,port=50002,localport=59971]--8792150243422556498
+|java.net.SocketException: Connection reset
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:320)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:347)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:800)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:966)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:961)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2905)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3232)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3242)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1708)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:538)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:496)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+231209 125144.161|FINER|Thread-49297|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:156)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)

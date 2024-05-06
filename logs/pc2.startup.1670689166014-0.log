@@ -1,0 +1,68 @@
+221210 101926.015|CONFIG|qtp1613095350-25|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+221210 101926.016|INFO|qtp1613095350-25|info|
+221210 101926.016|INFO|qtp1613095350-25|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+221210 101926.016|INFO|qtp1613095350-25|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+221210 101926.017|INFO|qtp1613095350-25|startLog|Process id is 22344@DESKTOP-D75BQTV
+221210 101926.017|INFO|qtp1613095350-25|start|Starting ConnectionManager...
+221210 101926.017|INFO|qtp1613095350-25|start|Started ConnectionManager
+221210 101926.018|INFO|qtp1613095350-25|setClientServerAndPort|INIFile File location: file:/C:/Users/18328/Desktop/pc2/WebTeamInterface-1.1/pc2v9.ini
+221210 101926.018|INFO|qtp1613095350-25|setClientServerAndPort|setClientServerAndPort 212.212.212.212 parsed as 212.212.212.212 port 50002
+221210 101926.018|INFO|qtp1613095350-25|info|Contacting server at 212.212.212.212:50002
+221210 101926.018|INFO|qtp1613095350-25|connectToMyServer|Connecting to 212.212.212.212:50002
+221210 101926.020|INFO|Thread-2069|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/212.212.212.212,port=50002,localport=57237]--7024700725936887907)
+221210 101926.021|INFO|Thread-2069|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/212.212.212.212,port=50002,localport=57237]--7024700725936887907 key is com.sun.crypto.provider.DESKey@fffe7a03
+221210 101926.021|INFO|Thread-2069|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+221210 101926.021|INFO|Thread-2069|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    923258b2 c3fc9bbe 7ed05708 ae5fcb25 a7338b9d 695892b0 d92f3477 be5869c4
+    d5138284 42014169 0aeb2d09 0336da70 ff997e54 6f4e5217 d588175a a8a4cff4
+    79a6da26 05e12298 36c6822d 8cf1199e bf8e53fc 60e7463c 15650f79 67439dbd
+    573c5d61 55f46bdd 4d1f703e 7eb3fce6 03f86398 d3f813a0 59df37ec 254ac2cb
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+221210 101926.021|INFO|Thread-2069|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@6d883997
+221210 150258.253|INFO|Thread-2069|receive|SocketException in receive for Socket[addr=/212.212.212.212,port=50002,localport=57237]--7024700725936887907
+|java.net.SocketException: An established connection was aborted by the software in your host machine
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:322)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:347)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:800)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:966)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:961)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2905)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3232)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3242)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1708)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:538)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:496)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+221210 150258.266|FINER|Thread-2069|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: An established connection was aborted by the software in your host machine
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:156)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+221210 150258.266|INFO|Thread-2069|receive|SocketException in receive for Socket[addr=/212.212.212.212,port=50002,localport=57237]--7024700725936887907
+|java.net.SocketException: Connection reset
+|    at sun.nio.ch.NioSocketImpl.implRead (NioSocketImpl.java:320)
+|    at sun.nio.ch.NioSocketImpl.read (NioSocketImpl.java:347)
+|    at sun.nio.ch.NioSocketImpl$1.read (NioSocketImpl.java:800)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:966)
+|    at java.net.Socket$SocketInputStream.read (Socket.java:961)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2905)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3232)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3242)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1708)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:538)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:496)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+221210 150258.270|FINER|Thread-2069|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:156)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)

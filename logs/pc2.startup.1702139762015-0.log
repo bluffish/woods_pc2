@@ -1,0 +1,46 @@
+231209 103602.020|CONFIG|qtp135640095-45243|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+231209 103602.020|INFO|qtp135640095-45243|info|
+231209 103602.020|INFO|qtp135640095-45243|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+231209 103602.020|INFO|qtp135640095-45243|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+231209 103602.020|INFO|qtp135640095-45243|startLog|Process id is 15028@DESKTOP-D75BQTV
+231209 103602.020|INFO|qtp135640095-45243|start|Starting ConnectionManager...
+231209 103602.023|INFO|qtp135640095-45243|start|Started ConnectionManager
+231209 103602.023|INFO|qtp135640095-45243|setClientServerAndPort|INIFile File location: file:/C:/Users/18328/Desktop/pc2/WebTeamInterface-1.1/pc2v9.ini
+231209 103602.023|INFO|qtp135640095-45243|setClientServerAndPort|setClientServerAndPort localhost parsed as localhost port 50002
+231209 103602.023|INFO|qtp135640095-45243|info|Contacting server at localhost:50002
+231209 103602.023|INFO|qtp135640095-45243|connectToMyServer|Connecting to localhost:50002
+231209 103602.031|INFO|Thread-49139|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=localhost/127.0.0.1,port=50002,localport=59272]--5777044530708146966)
+231209 103602.031|INFO|Thread-49139|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=59272]--5777044530708146966 key is com.sun.crypto.provider.DESKey@183f7
+231209 103602.031|INFO|Thread-49139|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+231209 103602.031|INFO|Thread-49139|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    27d85b5c 5696b178 e1aeb804 66cfb6e6 7b6a074d b6159975 1f89f4ee 4736c881
+    18d550e1 e949bd3e ad8ea7d7 51fa0c2a 4adcb0a1 3f458ed8 15d9c1d5 4b83926c
+    cf9082d7 07f9ca49 73c8ab0f 4dcc3fcc 3c94e1ae 23a3ecf2 4097264e c3b897b9
+    c7bc6d64 05e2a072 b30c8700 bed361dd cd20d9e8 e3d1dd41 ae5818c9 69f8975d
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+231209 103602.031|INFO|Thread-49139|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@7e239f29
+231209 103941.334|INFO|Thread-49139|receive|EOFException in receive for Socket[addr=localhost/127.0.0.1,port=50002,localport=59272]--5777044530708146966
+|java.io.EOFException: null
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3244)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1708)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:538)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:496)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+231209 103941.334|FINER|Thread-49139|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:159)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+231209 103941.334|FINER|Thread-49139|run - e.getmessage is null()|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:159)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)

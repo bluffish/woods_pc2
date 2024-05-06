@@ -1,0 +1,47 @@
+221210 102749.569|CONFIG|Thread-3403|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+221210 102749.569|INFO|Thread-3403|info|
+221210 102749.569|INFO|Thread-3403|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+221210 102749.569|INFO|Thread-3403|info|Login: team16 (aka team16)
+221210 102749.569|INFO|Thread-3403|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+221210 102749.569|INFO|Thread-3403|startLog|Process id is 22344@DESKTOP-D75BQTV
+221210 102749.569|INFO|Thread-3403|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+221210 102749.570|INFO|Thread-3403|info|handlePacket end Packet[LOGIN_SUCCESS] #2654 SERVER0 @ site 1 -> TEAM16 @ site 1
+221210 102749.570|INFO|Thread-3403|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #2654 SERVER0 @ site 1 -> TEAM16 @ site 1
+221210 102749.844|INFO|Thread-3404|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #2656 SERVER0 @ site 1 -> TEAM16 @ site 1
+221210 102749.844|INFO|Thread-3404|dumpPacket|Packet RUN_JUDGEMENT (Seq #2656, o#2656 ) recieveObject
+221210 102749.844|INFO|Thread-3404|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 102749.844|INFO|Thread-3404|dumpPacket|    To: TEAM16 @ site 1
+221210 102749.844|INFO|Thread-3404|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-448420548528869030 id JudgementRecord--665104124624121680
+221210 102749.844|INFO|Thread-3404|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 124 JUDGED 159 min 9591117ms from TEAM16 @ site 1 id Run--2383885557379784160 problem dryrun--3838966659325508604 lang Java-9059947720623527775
+221210 102749.844|INFO|Thread-3404|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 102749.844|INFO|Thread-3404|info|handlePacket start Packet[RUN_JUDGEMENT] #2656 SERVER0 @ site 1 -> TEAM16 @ site 1
+221210 102749.844|INFO|Thread-3404|dumpPacket|Packet RUN_JUDGEMENT (Seq #2656, o#2656 ) handlePacket
+221210 102749.844|INFO|Thread-3404|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 102749.844|INFO|Thread-3404|dumpPacket|    To: TEAM16 @ site 1
+221210 102749.845|INFO|Thread-3404|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes-448420548528869030 id JudgementRecord--665104124624121680
+221210 102749.845|INFO|Thread-3404|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 124 JUDGED 159 min 9591117ms from TEAM16 @ site 1 id Run--2383885557379784160 problem dryrun--3838966659325508604 lang Java-9059947720623527775
+221210 102749.845|INFO|Thread-3404|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 102749.845|INFO|Thread-3404|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #2656 SERVER0 @ site 1 -> TEAM16 @ site 1
+221210 103056.957|INFO|Thread-3603|info| receiveObject(S) start got Packet[CLOCK_STOPPED] #2696 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 103056.957|INFO|Thread-3603|dumpPacket|Packet CLOCK_STOPPED (Seq #2696, o#2696 ) recieveObject
+221210 103056.957|INFO|Thread-3603|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 103056.957|INFO|Thread-3603|dumpPacket|    To: SERVER0 @ site 0
+221210 103056.957|INFO|Thread-3603|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 103056.957|INFO|Thread-3603|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 103056.957|INFO|Thread-3603|info|handlePacket start Packet[CLOCK_STOPPED] #2696 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 103056.957|INFO|Thread-3603|dumpPacket|Packet CLOCK_STOPPED (Seq #2696, o#2696 ) handlePacket
+221210 103056.957|INFO|Thread-3603|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 103056.957|INFO|Thread-3603|dumpPacket|    To: SERVER0 @ site 0
+221210 103056.957|INFO|Thread-3603|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 103056.957|INFO|Thread-3603|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 103056.957|INFO|Thread-3603|info|Clock for site 1 stopped by SERVER0 @ site 1 elapsed 2:43:32
+221210 103056.957|INFO|Thread-3603|info| receiveObject(S) end   got Packet[CLOCK_STOPPED] #2696 SERVER0 @ site 1 -> SERVER0 @ site 0
+231209 103629.784|CONFIG|Thread-49184|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+231209 103629.784|INFO|Thread-49184|info|
+231209 103629.784|INFO|Thread-49184|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+231209 103629.784|INFO|Thread-49184|info|Login: team16 (aka team16)
+231209 103629.792|INFO|Thread-49184|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+231209 103629.792|INFO|Thread-49184|startLog|Process id is 15028@DESKTOP-D75BQTV
+231209 103629.792|INFO|Thread-49184|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+231209 103629.792|INFO|Thread-49184|info|handlePacket end Packet[LOGIN_SUCCESS] #3271 SERVER0 @ site 1 -> TEAM16 @ site 1
+231209 103629.792|INFO|Thread-49184|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #3271 SERVER0 @ site 1 -> TEAM16 @ site 1

@@ -1,0 +1,138 @@
+221210 101000.477|CONFIG|Thread-373|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+221210 101000.477|INFO|Thread-373|info|
+221210 101000.478|INFO|Thread-373|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+221210 101000.478|INFO|Thread-373|info|Login: team11 (aka team11)
+221210 101000.478|INFO|Thread-373|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+221210 101000.478|INFO|Thread-373|startLog|Process id is 22344@DESKTOP-D75BQTV
+221210 101000.478|INFO|Thread-373|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+221210 101000.478|INFO|Thread-373|info|handlePacket end Packet[LOGIN_SUCCESS] #2207 SERVER0 @ site 1 -> TEAM11 @ site 1
+221210 101000.478|INFO|Thread-373|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #2207 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 163009.555|CONFIG|Thread-8100|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+230921 163009.555|INFO|Thread-8100|info|
+230921 163009.555|INFO|Thread-8100|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+230921 163009.555|INFO|Thread-8100|info|Login: team11 (aka team11)
+230921 163009.555|INFO|Thread-8100|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+230921 163009.555|INFO|Thread-8100|startLog|Process id is 1544@DESKTOP-D75BQTV
+230921 163009.555|INFO|Thread-8100|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+230921 163009.555|INFO|Thread-8100|info|handlePacket end Packet[LOGIN_SUCCESS] #821 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 163009.555|INFO|Thread-8100|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #821 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 163018.710|INFO|Thread-8166|info| receiveObject(S) start got Packet[UPDATE_SETTING] #824 SERVER0 @ site 1 -> SERVER0 @ site 0
+230921 163018.710|INFO|Thread-8166|dumpPacket|Packet UPDATE_SETTING (Seq #824, o#160 ) recieveObject
+230921 163018.710|INFO|Thread-8166|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.8) (Contest Id: Test2Novice-8167312297676738178)
+230921 163018.710|INFO|Thread-8166|dumpPacket|    To: SERVER0 @ site 0
+230921 163018.710|INFO|Thread-8166|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Podracing
+230921 163018.710|INFO|Thread-8166|info|handlePacket start Packet[UPDATE_SETTING] #824 SERVER0 @ site 1 -> SERVER0 @ site 0
+230921 163018.710|INFO|Thread-8166|dumpPacket|Packet UPDATE_SETTING (Seq #824, o#160 ) handlePacket
+230921 163018.710|INFO|Thread-8166|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.8) (Contest Id: Test2Novice-8167312297676738178)
+230921 163018.710|INFO|Thread-8166|dumpPacket|    To: SERVER0 @ site 0
+230921 163018.710|INFO|Thread-8166|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem Podracing
+230921 163018.710|INFO|Thread-8166|info|handlePacket end Packet[UPDATE_SETTING] #824 SERVER0 @ site 1 -> SERVER0 @ site 0
+230921 163018.715|INFO|Thread-8166|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #824 SERVER0 @ site 1 -> SERVER0 @ site 0
+230921 163025.596|INFO|Thread-8309|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #831 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 163025.596|INFO|Thread-8309|dumpPacket|Packet RUN_JUDGEMENT (Seq #831, o#831 ) recieveObject
+230921 163025.596|INFO|Thread-8309|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.8) (Contest Id: Test2Novice-8167312297676738178)
+230921 163025.596|INFO|Thread-8309|dumpPacket|    To: TEAM11 @ site 1
+230921 163025.596|INFO|Thread-8309|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by ADMINISTRATOR1 @ site 1 judgement Yes-2915828768858405923 id JudgementRecord-8306933057903166611
+230921 163025.596|INFO|Thread-8309|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 61 JUDGED 34 min 2094560ms from TEAM11 @ site 1 id Run--5438488333101107310 problem Alpha--9197088170254786921 lang Java--8800253324652192008
+230921 163025.596|INFO|Thread-8309|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+230921 163025.596|INFO|Thread-8309|info|handlePacket start Packet[RUN_JUDGEMENT] #831 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 163025.596|INFO|Thread-8309|dumpPacket|Packet RUN_JUDGEMENT (Seq #831, o#831 ) handlePacket
+230921 163025.596|INFO|Thread-8309|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.8) (Contest Id: Test2Novice-8167312297676738178)
+230921 163025.596|INFO|Thread-8309|dumpPacket|    To: TEAM11 @ site 1
+230921 163025.596|INFO|Thread-8309|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by ADMINISTRATOR1 @ site 1 judgement Yes-2915828768858405923 id JudgementRecord-8306933057903166611
+230921 163025.596|INFO|Thread-8309|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 61 JUDGED 34 min 2094560ms from TEAM11 @ site 1 id Run--5438488333101107310 problem Alpha--9197088170254786921 lang Java--8800253324652192008
+230921 163025.596|INFO|Thread-8309|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+230921 163025.596|INFO|Thread-8309|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #831 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 163034.076|INFO|qtp18242360-6750|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #170 TEAM11 @ site 1 -> SERVER0 @ site 1
+230921 163034.076|INFO|qtp18242360-6750|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #170 TEAM11 @ site 1 -> SERVER0 @ site 1
+230921 163034.123|INFO|Thread-8434|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #839 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 163034.123|INFO|Thread-8434|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #839, o#839 ) recieveObject
+230921 163034.123|INFO|Thread-8434|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.8) (Contest Id: Test2Novice-8167312297676738178)
+230921 163034.123|INFO|Thread-8434|dumpPacket|    To: TEAM11 @ site 1
+230921 163034.123|INFO|Thread-8434|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 85 NEW 47 min 2829877ms from TEAM11 @ site 1 id Run-1584550099540550635 problem Podracing-2457167650519032104 lang Java--8800253324652192008
+230921 163034.123|INFO|Thread-8434|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #839 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 163034.123|INFO|Thread-8434|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #839, o#839 ) handlePacket
+230921 163034.123|INFO|Thread-8434|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.8) (Contest Id: Test2Novice-8167312297676738178)
+230921 163034.123|INFO|Thread-8434|dumpPacket|    To: TEAM11 @ site 1
+230921 163034.123|INFO|Thread-8434|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 85 NEW 47 min 2829877ms from TEAM11 @ site 1 id Run-1584550099540550635 problem Podracing-2457167650519032104 lang Java--8800253324652192008
+230921 163034.123|INFO|Thread-8434|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #839 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 163425.354|INFO|Thread-10264|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #947 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 163425.354|INFO|Thread-10264|dumpPacket|Packet RUN_JUDGEMENT (Seq #947, o#947 ) recieveObject
+230921 163425.354|INFO|Thread-10264|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.8) (Contest Id: Test2Novice-8167312297676738178)
+230921 163425.354|INFO|Thread-10264|dumpPacket|    To: TEAM11 @ site 1
+230921 163425.354|INFO|Thread-10264|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by ADMINISTRATOR1 @ site 1 judgement No_-_Wrong_Answer-7097647880754622437 id JudgementRecord-743393354493850698
+230921 163425.354|INFO|Thread-10264|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 85 JUDGED 47 min 2829877ms from TEAM11 @ site 1 id Run-1584550099540550635 problem Podracing-2457167650519032104 lang Java--8800253324652192008
+230921 163425.354|INFO|Thread-10264|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+230921 163425.354|INFO|Thread-10264|info|handlePacket start Packet[RUN_JUDGEMENT] #947 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 163425.354|INFO|Thread-10264|dumpPacket|Packet RUN_JUDGEMENT (Seq #947, o#947 ) handlePacket
+230921 163425.354|INFO|Thread-10264|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.8) (Contest Id: Test2Novice-8167312297676738178)
+230921 163425.354|INFO|Thread-10264|dumpPacket|    To: TEAM11 @ site 1
+230921 163425.354|INFO|Thread-10264|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by ADMINISTRATOR1 @ site 1 judgement No_-_Wrong_Answer-7097647880754622437 id JudgementRecord-743393354493850698
+230921 163425.354|INFO|Thread-10264|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 85 JUDGED 47 min 2829877ms from TEAM11 @ site 1 id Run-1584550099540550635 problem Podracing-2457167650519032104 lang Java--8800253324652192008
+230921 163425.354|INFO|Thread-10264|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+230921 163425.354|INFO|Thread-10264|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #947 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 164128.108|INFO|qtp18242360-6036|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #193 TEAM11 @ site 1 -> SERVER0 @ site 1
+230921 164128.108|INFO|qtp18242360-6036|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #193 TEAM11 @ site 1 -> SERVER0 @ site 1
+230921 164128.183|INFO|Thread-12545|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #1068 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 164128.183|INFO|Thread-12545|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1068, o#1068 ) recieveObject
+230921 164128.183|INFO|Thread-12545|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.8) (Contest Id: Test2Novice-8167312297676738178)
+230921 164128.183|INFO|Thread-12545|dumpPacket|    To: TEAM11 @ site 1
+230921 164128.183|INFO|Thread-12545|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 106 NEW 58 min 3483920ms from TEAM11 @ site 1 id Run-5539091914174068021 problem Podracing-2457167650519032104 lang Java--8800253324652192008
+230921 164128.183|INFO|Thread-12545|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #1068 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 164128.183|INFO|Thread-12545|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #1068, o#1068 ) handlePacket
+230921 164128.183|INFO|Thread-12545|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.8) (Contest Id: Test2Novice-8167312297676738178)
+230921 164128.183|INFO|Thread-12545|dumpPacket|    To: TEAM11 @ site 1
+230921 164128.183|INFO|Thread-12545|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 106 NEW 58 min 3483920ms from TEAM11 @ site 1 id Run-5539091914174068021 problem Podracing-2457167650519032104 lang Java--8800253324652192008
+230921 164128.183|INFO|Thread-12545|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #1068 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 164144.201|INFO|Thread-12739|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #1078 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 164144.201|INFO|Thread-12739|dumpPacket|Packet RUN_JUDGEMENT (Seq #1078, o#1078 ) recieveObject
+230921 164144.201|INFO|Thread-12739|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.8) (Contest Id: Test2Novice-8167312297676738178)
+230921 164144.201|INFO|Thread-12739|dumpPacket|    To: TEAM11 @ site 1
+230921 164144.201|INFO|Thread-12739|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by ADMINISTRATOR1 @ site 1 judgement Yes-2915828768858405923 id JudgementRecord--2204470106027643653
+230921 164144.201|INFO|Thread-12739|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 106 JUDGED 58 min 3483920ms from TEAM11 @ site 1 id Run-5539091914174068021 problem Podracing-2457167650519032104 lang Java--8800253324652192008
+230921 164144.201|INFO|Thread-12739|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+230921 164144.201|INFO|Thread-12739|info|handlePacket start Packet[RUN_JUDGEMENT] #1078 SERVER0 @ site 1 -> TEAM11 @ site 1
+230921 164144.201|INFO|Thread-12739|dumpPacket|Packet RUN_JUDGEMENT (Seq #1078, o#1078 ) handlePacket
+230921 164144.201|INFO|Thread-12739|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.8) (Contest Id: Test2Novice-8167312297676738178)
+230921 164144.201|INFO|Thread-12739|dumpPacket|    To: TEAM11 @ site 1
+230921 164144.201|INFO|Thread-12739|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by ADMINISTRATOR1 @ site 1 judgement Yes-2915828768858405923 id JudgementRecord--2204470106027643653
+230921 164144.201|INFO|Thread-12739|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 106 JUDGED 58 min 3483920ms from TEAM11 @ site 1 id Run-5539091914174068021 problem Podracing-2457167650519032104 lang Java--8800253324652192008
+230921 164144.201|INFO|Thread-12739|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+230921 164144.208|INFO|Thread-12739|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #1078 SERVER0 @ site 1 -> TEAM11 @ site 1
+231209 095612.355|CONFIG|Thread-33433|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+231209 095612.355|INFO|Thread-33433|info|
+231209 095612.355|INFO|Thread-33433|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+231209 095612.355|INFO|Thread-33433|info|Login: team11 (aka team11)
+231209 095612.355|INFO|Thread-33433|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+231209 095612.355|INFO|Thread-33433|startLog|Process id is 15028@DESKTOP-D75BQTV
+231209 095612.355|INFO|Thread-33433|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+231209 095612.355|INFO|Thread-33433|info|handlePacket end Packet[LOGIN_SUCCESS] #2316 SERVER0 @ site 1 -> TEAM11 @ site 1
+231209 095612.355|INFO|Thread-33433|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #2316 SERVER0 @ site 1 -> TEAM11 @ site 1
+231209 095645.009|INFO|Thread-34096|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #2346 SERVER0 @ site 1 -> TEAM11 @ site 1
+231209 095645.009|INFO|Thread-34096|dumpPacket|Packet RUN_JUDGEMENT (Seq #2346, o#2346 ) recieveObject
+231209 095645.009|INFO|Thread-34096|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 095645.009|INFO|Thread-34096|dumpPacket|    To: TEAM11 @ site 1
+231209 095645.009|INFO|Thread-34096|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No_-_Wrong_Answer-7097647880754622437 id JudgementRecord--382340792475727305
+231209 095645.009|INFO|Thread-34096|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 146 JUDGED 134 min 8097263ms from TEAM11 @ site 1 id Run--7385700772751987638 problem DryRun--5056188413862619659 lang Java--8800253324652192008
+231209 095645.009|INFO|Thread-34096|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+231209 095645.009|INFO|Thread-34096|info|handlePacket start Packet[RUN_JUDGEMENT] #2346 SERVER0 @ site 1 -> TEAM11 @ site 1
+231209 095645.010|INFO|Thread-34096|dumpPacket|Packet RUN_JUDGEMENT (Seq #2346, o#2346 ) handlePacket
+231209 095645.010|INFO|Thread-34096|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 095645.010|INFO|Thread-34096|dumpPacket|    To: TEAM11 @ site 1
+231209 095645.010|INFO|Thread-34096|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No_-_Wrong_Answer-7097647880754622437 id JudgementRecord--382340792475727305
+231209 095645.010|INFO|Thread-34096|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 146 JUDGED 134 min 8097263ms from TEAM11 @ site 1 id Run--7385700772751987638 problem DryRun--5056188413862619659 lang Java--8800253324652192008
+231209 095645.010|INFO|Thread-34096|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+231209 095645.012|INFO|Thread-34096|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #2346 SERVER0 @ site 1 -> TEAM11 @ site 1
+231209 095836.710|INFO|qtp135640095-21299|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #431 TEAM11 @ site 1 -> SERVER0 @ site 1
+231209 095836.710|INFO|qtp135640095-21299|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #431 TEAM11 @ site 1 -> SERVER0 @ site 1
+231209 095836.806|INFO|Thread-35643|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #2388 SERVER0 @ site 1 -> TEAM11 @ site 1
+231209 095836.806|INFO|Thread-35643|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2388, o#2388 ) recieveObject
+231209 095836.806|INFO|Thread-35643|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 095836.806|INFO|Thread-35643|dumpPacket|    To: TEAM11 @ site 1
+231209 095836.806|INFO|Thread-35643|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 151 NEW 137 min 8258318ms from TEAM11 @ site 1 id Run--7663746426588734507 problem DryRun--5056188413862619659 lang Java--8800253324652192008
+231209 095836.806|INFO|Thread-35643|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #2388 SERVER0 @ site 1 -> TEAM11 @ site 1
+231209 095836.806|INFO|Thread-35643|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #2388, o#2388 ) handlePacket
+231209 095836.806|INFO|Thread-35643|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 095836.806|INFO|Thread-35643|dumpPacket|    To: TEAM11 @ site 1
+231209 095836.806|INFO|Thread-35643|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 151 NEW 137 min 8258318ms from TEAM11 @ site 1 id Run--7663746426588734507 problem DryRun--5056188413862619659 lang Java--8800253324652192008
+231209 095836.806|INFO|Thread-35643|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #2388 SERVER0 @ site 1 -> TEAM11 @ site 1

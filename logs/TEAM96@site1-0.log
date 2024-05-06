@@ -1,0 +1,773 @@
+221210 071706.844|CONFIG|Thread-306|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+221210 071706.844|INFO|Thread-306|info|
+221210 071706.848|INFO|Thread-306|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+221210 071706.848|INFO|Thread-306|info|Login: team96 (aka team96)
+221210 071706.848|INFO|Thread-306|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+221210 071706.848|INFO|Thread-306|startLog|Process id is 20708@DESKTOP-D75BQTV
+221210 071706.848|INFO|Thread-306|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+221210 071706.848|INFO|Thread-306|info|handlePacket end Packet[LOGIN_SUCCESS] #188 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 071706.848|INFO|Thread-306|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #188 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 072240.102|INFO|qtp996796369-236|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #29 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 072240.102|INFO|qtp996796369-236|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #29 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 072240.139|INFO|Thread-311|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #193 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 072240.139|INFO|Thread-311|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #193, o#193 ) recieveObject
+221210 072240.139|INFO|Thread-311|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 072240.140|INFO|Thread-311|dumpPacket|    To: TEAM96 @ site 1
+221210 072240.140|INFO|Thread-311|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 13 NEW 47 min 2867695ms from TEAM96 @ site 1 id Run-1442824470110824181 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 072240.140|INFO|Thread-311|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #193 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 072240.140|INFO|Thread-311|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #193, o#193 ) handlePacket
+221210 072240.140|INFO|Thread-311|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 072240.140|INFO|Thread-311|dumpPacket|    To: TEAM96 @ site 1
+221210 072240.140|INFO|Thread-311|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 13 NEW 47 min 2867695ms from TEAM96 @ site 1 id Run-1442824470110824181 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 072240.140|INFO|Thread-311|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #193 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 072322.971|INFO|Thread-333|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #208 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 072322.972|INFO|Thread-333|dumpPacket|Packet RUN_JUDGEMENT (Seq #208, o#208 ) recieveObject
+221210 072322.972|INFO|Thread-333|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 072322.972|INFO|Thread-333|dumpPacket|    To: TEAM96 @ site 1
+221210 072322.972|INFO|Thread-333|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by ADMINISTRATOR1 @ site 1 judgement No_-_Other_-_Contact_Staff-2293771050266059275 id JudgementRecord-4775364132171447624
+221210 072322.973|INFO|Thread-333|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 13 JUDGED 47 min 2867695ms from TEAM96 @ site 1 id Run-1442824470110824181 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 072322.973|INFO|Thread-333|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 072322.973|INFO|Thread-333|info|handlePacket start Packet[RUN_JUDGEMENT] #208 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 072322.973|INFO|Thread-333|dumpPacket|Packet RUN_JUDGEMENT (Seq #208, o#208 ) handlePacket
+221210 072322.973|INFO|Thread-333|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 072322.973|INFO|Thread-333|dumpPacket|    To: TEAM96 @ site 1
+221210 072322.973|INFO|Thread-333|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by ADMINISTRATOR1 @ site 1 judgement No_-_Other_-_Contact_Staff-2293771050266059275 id JudgementRecord-4775364132171447624
+221210 072322.973|INFO|Thread-333|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 13 JUDGED 47 min 2867695ms from TEAM96 @ site 1 id Run-1442824470110824181 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 072322.973|INFO|Thread-333|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 072322.996|INFO|Thread-333|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #208 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 072503.724|INFO|Thread-374|info| receiveObject(S) start got Packet[UPDATE_SETTING] #217 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 072503.724|INFO|Thread-374|dumpPacket|Packet UPDATE_SETTING (Seq #217, o#49 ) recieveObject
+221210 072503.724|INFO|Thread-374|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 072503.724|INFO|Thread-374|dumpPacket|    To: SERVER0 @ site 0
+221210 072503.724|INFO|Thread-374|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem tang
+221210 072503.724|INFO|Thread-374|info|handlePacket start Packet[UPDATE_SETTING] #217 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 072503.724|INFO|Thread-374|dumpPacket|Packet UPDATE_SETTING (Seq #217, o#49 ) handlePacket
+221210 072503.724|INFO|Thread-374|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 072503.724|INFO|Thread-374|dumpPacket|    To: SERVER0 @ site 0
+221210 072503.724|INFO|Thread-374|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem tang
+221210 072503.724|INFO|Thread-374|info|handlePacket end Packet[UPDATE_SETTING] #217 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 072503.731|INFO|Thread-374|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #217 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 072714.532|INFO|Thread-469|info| receiveObject(S) start got Packet[UPDATE_SETTING] #247 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 072714.532|INFO|Thread-469|dumpPacket|Packet UPDATE_SETTING (Seq #247, o#56 ) recieveObject
+221210 072714.532|INFO|Thread-469|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 072714.532|INFO|Thread-469|dumpPacket|    To: SERVER0 @ site 0
+221210 072714.532|INFO|Thread-469|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem tang
+221210 072714.532|INFO|Thread-469|info|handlePacket start Packet[UPDATE_SETTING] #247 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 072714.532|INFO|Thread-469|dumpPacket|Packet UPDATE_SETTING (Seq #247, o#56 ) handlePacket
+221210 072714.532|INFO|Thread-469|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 072714.532|INFO|Thread-469|dumpPacket|    To: SERVER0 @ site 0
+221210 072714.532|INFO|Thread-469|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem tang
+221210 072714.532|INFO|Thread-469|info|handlePacket end Packet[UPDATE_SETTING] #247 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 072714.536|INFO|Thread-469|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #247 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 073401.172|INFO|qtp996796369-187|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #43 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 073401.176|INFO|qtp996796369-187|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #43 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 073401.215|INFO|Thread-680|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #309 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073401.215|INFO|Thread-680|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #309, o#309 ) recieveObject
+221210 073401.215|INFO|Thread-680|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073401.215|INFO|Thread-680|dumpPacket|    To: TEAM96 @ site 1
+221210 073401.215|INFO|Thread-680|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 23 NEW 59 min 3548765ms from TEAM96 @ site 1 id Run-1553832506786802835 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 073401.215|INFO|Thread-680|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #309 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073401.215|INFO|Thread-680|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #309, o#309 ) handlePacket
+221210 073401.217|INFO|Thread-680|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073401.217|INFO|Thread-680|dumpPacket|    To: TEAM96 @ site 1
+221210 073401.217|INFO|Thread-680|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 23 NEW 59 min 3548765ms from TEAM96 @ site 1 id Run-1553832506786802835 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 073401.217|INFO|Thread-680|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #309 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073423.799|INFO|qtp996796369-595|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #44 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 073423.803|INFO|qtp996796369-595|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #44 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 073423.842|INFO|Thread-694|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #315 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073423.842|INFO|Thread-694|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #315, o#315 ) recieveObject
+221210 073423.842|INFO|Thread-694|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073423.842|INFO|Thread-694|dumpPacket|    To: TEAM96 @ site 1
+221210 073423.842|INFO|Thread-694|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 24 NEW 59 min 3571391ms from TEAM96 @ site 1 id Run-2207468202139435179 problem throatpunch-9036032191564691104 lang Java-8995311559554510087
+221210 073423.842|INFO|Thread-694|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #315 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073423.842|INFO|Thread-694|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #315, o#315 ) handlePacket
+221210 073423.842|INFO|Thread-694|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073423.842|INFO|Thread-694|dumpPacket|    To: TEAM96 @ site 1
+221210 073423.842|INFO|Thread-694|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 24 NEW 59 min 3571391ms from TEAM96 @ site 1 id Run-2207468202139435179 problem throatpunch-9036032191564691104 lang Java-8995311559554510087
+221210 073423.842|INFO|Thread-694|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #315 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073533.140|INFO|Thread-719|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #324 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073533.140|INFO|Thread-719|dumpPacket|Packet RUN_JUDGEMENT (Seq #324, o#324 ) recieveObject
+221210 073533.140|INFO|Thread-719|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073533.140|INFO|Thread-719|dumpPacket|    To: TEAM96 @ site 1
+221210 073533.140|INFO|Thread-719|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No_-_Run-time_Error-1684107503433947064 id JudgementRecord--792418004612650109
+221210 073533.140|INFO|Thread-719|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 24 JUDGED 59 min 3571391ms from TEAM96 @ site 1 id Run-2207468202139435179 problem throatpunch-9036032191564691104 lang Java-8995311559554510087
+221210 073533.140|INFO|Thread-719|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073533.140|INFO|Thread-719|info|handlePacket start Packet[RUN_JUDGEMENT] #324 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073533.140|INFO|Thread-719|dumpPacket|Packet RUN_JUDGEMENT (Seq #324, o#324 ) handlePacket
+221210 073533.140|INFO|Thread-719|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073533.140|INFO|Thread-719|dumpPacket|    To: TEAM96 @ site 1
+221210 073533.140|INFO|Thread-719|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No_-_Run-time_Error-1684107503433947064 id JudgementRecord--792418004612650109
+221210 073533.140|INFO|Thread-719|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 24 JUDGED 59 min 3571391ms from TEAM96 @ site 1 id Run-2207468202139435179 problem throatpunch-9036032191564691104 lang Java-8995311559554510087
+221210 073533.140|INFO|Thread-719|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073533.140|INFO|Thread-719|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #324 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073545.152|INFO|Thread-732|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #329 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073545.152|INFO|Thread-732|dumpPacket|Packet RUN_JUDGEMENT (Seq #329, o#329 ) recieveObject
+221210 073545.152|INFO|Thread-732|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073545.152|INFO|Thread-732|dumpPacket|    To: TEAM96 @ site 1
+221210 073545.152|INFO|Thread-732|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by ADMINISTRATOR1 @ site 1 judgement No_-_Run-time_Error-1684107503433947064 id JudgementRecord--587378875116402381
+221210 073545.152|INFO|Thread-732|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 23 JUDGED 59 min 3548765ms from TEAM96 @ site 1 id Run-1553832506786802835 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 073545.152|INFO|Thread-732|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073545.152|INFO|Thread-732|info|handlePacket start Packet[RUN_JUDGEMENT] #329 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073545.152|INFO|Thread-732|dumpPacket|Packet RUN_JUDGEMENT (Seq #329, o#329 ) handlePacket
+221210 073545.152|INFO|Thread-732|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073545.152|INFO|Thread-732|dumpPacket|    To: TEAM96 @ site 1
+221210 073545.152|INFO|Thread-732|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by ADMINISTRATOR1 @ site 1 judgement No_-_Run-time_Error-1684107503433947064 id JudgementRecord--587378875116402381
+221210 073545.152|INFO|Thread-732|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 23 JUDGED 59 min 3548765ms from TEAM96 @ site 1 id Run-1553832506786802835 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 073545.152|INFO|Thread-732|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073545.152|INFO|Thread-732|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #329 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073603.001|INFO|qtp996796369-352|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #45 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 073603.001|INFO|qtp996796369-352|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #45 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 073603.042|INFO|Thread-744|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #331 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073603.042|INFO|Thread-744|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #331, o#331 ) recieveObject
+221210 073603.042|INFO|Thread-744|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073603.042|INFO|Thread-744|dumpPacket|    To: TEAM96 @ site 1
+221210 073603.042|INFO|Thread-744|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 25 NEW 61 min 3670590ms from TEAM96 @ site 1 id Run--5536282086993855004 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 073603.042|INFO|Thread-744|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #331 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073603.042|INFO|Thread-744|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #331, o#331 ) handlePacket
+221210 073603.042|INFO|Thread-744|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073603.042|INFO|Thread-744|dumpPacket|    To: TEAM96 @ site 1
+221210 073603.042|INFO|Thread-744|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 25 NEW 61 min 3670590ms from TEAM96 @ site 1 id Run--5536282086993855004 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 073603.042|INFO|Thread-744|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #331 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073623.813|INFO|qtp996796369-541|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #47 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 073623.813|INFO|qtp996796369-541|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #47 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 073623.858|INFO|Thread-771|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #339 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073623.858|INFO|Thread-771|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #339, o#339 ) recieveObject
+221210 073623.858|INFO|Thread-771|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073623.858|INFO|Thread-771|dumpPacket|    To: TEAM96 @ site 1
+221210 073623.858|INFO|Thread-771|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 27 NEW 61 min 3691405ms from TEAM96 @ site 1 id Run-1738136300004087470 problem throatpunch-9036032191564691104 lang Java-8995311559554510087
+221210 073623.858|INFO|Thread-771|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #339 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073623.858|INFO|Thread-771|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #339, o#339 ) handlePacket
+221210 073623.858|INFO|Thread-771|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073623.858|INFO|Thread-771|dumpPacket|    To: TEAM96 @ site 1
+221210 073623.858|INFO|Thread-771|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 27 NEW 61 min 3691405ms from TEAM96 @ site 1 id Run-1738136300004087470 problem throatpunch-9036032191564691104 lang Java-8995311559554510087
+221210 073623.858|INFO|Thread-771|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #339 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073637.773|INFO|Thread-782|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #341 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073637.773|INFO|Thread-782|dumpPacket|Packet RUN_JUDGEMENT (Seq #341, o#341 ) recieveObject
+221210 073637.773|INFO|Thread-782|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073637.773|INFO|Thread-782|dumpPacket|    To: TEAM96 @ site 1
+221210 073637.773|INFO|Thread-782|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No_-_Run-time_Error-1684107503433947064 id JudgementRecord--1924869612348708634
+221210 073637.773|INFO|Thread-782|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 25 JUDGED 61 min 3670590ms from TEAM96 @ site 1 id Run--5536282086993855004 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 073637.773|INFO|Thread-782|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073637.773|INFO|Thread-782|info|handlePacket start Packet[RUN_JUDGEMENT] #341 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073637.773|INFO|Thread-782|dumpPacket|Packet RUN_JUDGEMENT (Seq #341, o#341 ) handlePacket
+221210 073637.773|INFO|Thread-782|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073637.773|INFO|Thread-782|dumpPacket|    To: TEAM96 @ site 1
+221210 073637.773|INFO|Thread-782|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No_-_Run-time_Error-1684107503433947064 id JudgementRecord--1924869612348708634
+221210 073637.773|INFO|Thread-782|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 25 JUDGED 61 min 3670590ms from TEAM96 @ site 1 id Run--5536282086993855004 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 073637.773|INFO|Thread-782|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073637.773|INFO|Thread-782|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #341 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073713.162|INFO|qtp996796369-595|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #48 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 073713.162|INFO|qtp996796369-595|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #48 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 073713.205|INFO|Thread-796|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #345 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073713.205|INFO|Thread-796|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #345, o#345 ) recieveObject
+221210 073713.205|INFO|Thread-796|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073713.207|INFO|Thread-796|dumpPacket|    To: TEAM96 @ site 1
+221210 073713.207|INFO|Thread-796|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 28 NEW 62 min 3740755ms from TEAM96 @ site 1 id Run--13175389000894798 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 073713.207|INFO|Thread-796|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #345 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073713.207|INFO|Thread-796|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #345, o#345 ) handlePacket
+221210 073713.207|INFO|Thread-796|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073713.207|INFO|Thread-796|dumpPacket|    To: TEAM96 @ site 1
+221210 073713.207|INFO|Thread-796|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 28 NEW 62 min 3740755ms from TEAM96 @ site 1 id Run--13175389000894798 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 073713.208|INFO|Thread-796|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #345 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073726.622|INFO|Thread-810|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #350 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073726.622|INFO|Thread-810|dumpPacket|Packet RUN_JUDGEMENT (Seq #350, o#350 ) recieveObject
+221210 073726.622|INFO|Thread-810|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073726.622|INFO|Thread-810|dumpPacket|    To: TEAM96 @ site 1
+221210 073726.622|INFO|Thread-810|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No_-_Run-time_Error-1684107503433947064 id JudgementRecord-2626927665007080507
+221210 073726.622|INFO|Thread-810|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 27 JUDGED 61 min 3691405ms from TEAM96 @ site 1 id Run-1738136300004087470 problem throatpunch-9036032191564691104 lang Java-8995311559554510087
+221210 073726.622|INFO|Thread-810|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073726.622|INFO|Thread-810|info|handlePacket start Packet[RUN_JUDGEMENT] #350 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073726.622|INFO|Thread-810|dumpPacket|Packet RUN_JUDGEMENT (Seq #350, o#350 ) handlePacket
+221210 073726.622|INFO|Thread-810|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073726.622|INFO|Thread-810|dumpPacket|    To: TEAM96 @ site 1
+221210 073726.622|INFO|Thread-810|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No_-_Run-time_Error-1684107503433947064 id JudgementRecord-2626927665007080507
+221210 073726.622|INFO|Thread-810|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 27 JUDGED 61 min 3691405ms from TEAM96 @ site 1 id Run-1738136300004087470 problem throatpunch-9036032191564691104 lang Java-8995311559554510087
+221210 073726.622|INFO|Thread-810|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073726.624|INFO|Thread-810|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #350 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073736.142|INFO|Thread-823|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #354 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073736.143|INFO|Thread-823|dumpPacket|Packet RUN_JUDGEMENT (Seq #354, o#354 ) recieveObject
+221210 073736.143|INFO|Thread-823|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073736.143|INFO|Thread-823|dumpPacket|    To: TEAM96 @ site 1
+221210 073736.143|INFO|Thread-823|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-448420548528869030 id JudgementRecord-2023405719715398970
+221210 073736.143|INFO|Thread-823|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 28 JUDGED 62 min 3740755ms from TEAM96 @ site 1 id Run--13175389000894798 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 073736.143|INFO|Thread-823|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073736.143|INFO|Thread-823|info|handlePacket start Packet[RUN_JUDGEMENT] #354 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073736.143|INFO|Thread-823|dumpPacket|Packet RUN_JUDGEMENT (Seq #354, o#354 ) handlePacket
+221210 073736.143|INFO|Thread-823|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073736.143|INFO|Thread-823|dumpPacket|    To: TEAM96 @ site 1
+221210 073736.143|INFO|Thread-823|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-448420548528869030 id JudgementRecord-2023405719715398970
+221210 073736.143|INFO|Thread-823|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 28 JUDGED 62 min 3740755ms from TEAM96 @ site 1 id Run--13175389000894798 problem trianguls-3533366483522833389 lang Java-8995311559554510087
+221210 073736.144|INFO|Thread-823|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073736.145|INFO|Thread-823|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #354 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073750.328|INFO|qtp996796369-352|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #50 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 073750.328|INFO|qtp996796369-352|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #50 TEAM96 @ site 1 -> SERVER0 @ site 1
+221210 073750.373|INFO|Thread-849|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #358 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073750.374|INFO|Thread-849|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #358, o#358 ) recieveObject
+221210 073750.374|INFO|Thread-849|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073750.374|INFO|Thread-849|dumpPacket|    To: TEAM96 @ site 1
+221210 073750.375|INFO|Thread-849|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 29 NEW 62 min 3777921ms from TEAM96 @ site 1 id Run--9212838107813055632 problem throatpunch-9036032191564691104 lang Java-8995311559554510087
+221210 073750.375|INFO|Thread-849|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #358 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073750.375|INFO|Thread-849|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #358, o#358 ) handlePacket
+221210 073750.375|INFO|Thread-849|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073750.375|INFO|Thread-849|dumpPacket|    To: TEAM96 @ site 1
+221210 073750.375|INFO|Thread-849|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 29 NEW 62 min 3777921ms from TEAM96 @ site 1 id Run--9212838107813055632 problem throatpunch-9036032191564691104 lang Java-8995311559554510087
+221210 073750.375|INFO|Thread-849|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #358 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073817.834|INFO|Thread-868|info| receiveObject(S) start got Packet[CLOCK_STOPPED] #369 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 073817.834|INFO|Thread-868|dumpPacket|Packet CLOCK_STOPPED (Seq #369, o#369 ) recieveObject
+221210 073817.834|INFO|Thread-868|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073817.834|INFO|Thread-868|dumpPacket|    To: SERVER0 @ site 0
+221210 073817.834|INFO|Thread-868|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 073817.834|INFO|Thread-868|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073817.834|INFO|Thread-868|info|handlePacket start Packet[CLOCK_STOPPED] #369 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 073817.834|INFO|Thread-868|dumpPacket|Packet CLOCK_STOPPED (Seq #369, o#369 ) handlePacket
+221210 073817.834|INFO|Thread-868|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073817.834|INFO|Thread-868|dumpPacket|    To: SERVER0 @ site 0
+221210 073817.835|INFO|Thread-868|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 073817.835|INFO|Thread-868|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073817.835|INFO|Thread-868|info|Clock for site 1 stopped by SERVER0 @ site 1 elapsed 1:03:25
+221210 073817.837|INFO|Thread-868|info| receiveObject(S) end   got Packet[CLOCK_STOPPED] #369 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 073835.238|INFO|Thread-886|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #373 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073835.238|INFO|Thread-886|dumpPacket|Packet RUN_JUDGEMENT (Seq #373, o#373 ) recieveObject
+221210 073835.238|INFO|Thread-886|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073835.238|INFO|Thread-886|dumpPacket|    To: TEAM96 @ site 1
+221210 073835.238|INFO|Thread-886|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No_-_Run-time_Error-1684107503433947064 id JudgementRecord-6597427182043027982
+221210 073835.238|INFO|Thread-886|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 29 JUDGED 62 min 3777921ms from TEAM96 @ site 1 id Run--9212838107813055632 problem throatpunch-9036032191564691104 lang Java-8995311559554510087
+221210 073835.238|INFO|Thread-886|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073835.238|INFO|Thread-886|info|handlePacket start Packet[RUN_JUDGEMENT] #373 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073835.238|INFO|Thread-886|dumpPacket|Packet RUN_JUDGEMENT (Seq #373, o#373 ) handlePacket
+221210 073835.238|INFO|Thread-886|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Test-2009995449253116953)
+221210 073835.238|INFO|Thread-886|dumpPacket|    To: TEAM96 @ site 1
+221210 073835.238|INFO|Thread-886|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE2 @ site 1 judgement No_-_Run-time_Error-1684107503433947064 id JudgementRecord-6597427182043027982
+221210 073835.238|INFO|Thread-886|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 29 JUDGED 62 min 3777921ms from TEAM96 @ site 1 id Run--9212838107813055632 problem throatpunch-9036032191564691104 lang Java-8995311559554510087
+221210 073835.238|INFO|Thread-886|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+221210 073835.238|INFO|Thread-886|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #373 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073947.994|INFO|Thread-914|info| receiveObject(S) start got Packet[UPDATE_CLIENT_PROFILE] #395 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073947.994|INFO|Thread-914|dumpPacket|Packet UPDATE_CLIENT_PROFILE (Seq #395, o#395 ) recieveObject
+221210 073947.994|INFO|Thread-914|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 073947.994|INFO|Thread-914|dumpPacket|    To: TEAM96 @ site 1
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@3701091
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@db7fe8f
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@9887be1
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@4c8af4b4
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@4f7d912c
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@7d8c5dca
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@379166e9
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@2ca50bfb
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@ff21bb2
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Template--4588011539998560318
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM96 @ site 1
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@100f758b
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@2c95ef4d
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@28ebd3f7
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@375b72d3
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@5c13ea9e
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@5fff89d6
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@29fd9db5
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1670679587926,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2022,MONTH=11,WEEK_OF_YEAR=50,WEEK_OF_MONTH=2,DAY_OF_MONTH=10,DAY_OF_YEAR=344,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=39,SECOND=47,MILLISECOND=926,ZONE_OFFSET=0,DST_OFFSET=0]
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: NEW_PROFILE is: edu.csus.ecs.pc2.core.model.Profile Template--4588011539998560318
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Template--4588011539998560318
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@455cbfb3
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@6d8ea9c
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@25ca72a8
+221210 073947.994|INFO|Thread-914|info|handlePacket start Packet[UPDATE_CLIENT_PROFILE] #395 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 073947.994|INFO|Thread-914|dumpPacket|Packet UPDATE_CLIENT_PROFILE (Seq #395, o#395 ) handlePacket
+221210 073947.994|INFO|Thread-914|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 073947.994|INFO|Thread-914|dumpPacket|    To: TEAM96 @ site 1
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@3701091
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@db7fe8f
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@9887be1
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@4c8af4b4
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@4f7d912c
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@7d8c5dca
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@379166e9
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@2ca50bfb
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@ff21bb2
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile Template--4588011539998560318
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM96 @ site 1
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@100f758b
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@2c95ef4d
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@28ebd3f7
+221210 073947.994|INFO|Thread-914|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@375b72d3
+221210 073947.998|INFO|Thread-914|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@5c13ea9e
+221210 073947.998|INFO|Thread-914|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@5fff89d6
+221210 073947.998|INFO|Thread-914|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@29fd9db5
+221210 073947.998|INFO|Thread-914|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1670679587926,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2022,MONTH=11,WEEK_OF_YEAR=50,WEEK_OF_MONTH=2,DAY_OF_MONTH=10,DAY_OF_YEAR=344,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=39,SECOND=47,MILLISECOND=926,ZONE_OFFSET=0,DST_OFFSET=0]
+221210 073947.998|INFO|Thread-914|dumpPacket|   key: NEW_PROFILE is: edu.csus.ecs.pc2.core.model.Profile Template--4588011539998560318
+221210 073947.998|INFO|Thread-914|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String Template--4588011539998560318
+221210 073947.998|INFO|Thread-914|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@455cbfb3
+221210 073947.998|INFO|Thread-914|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@6d8ea9c
+221210 073947.998|INFO|Thread-914|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@25ca72a8
+221210 073948.003|INFO|Thread-914|reRegisterPlugins|plugin.setContestAndController for API Contest class
+221210 073948.003|INFO|Thread-914|info|handleUpdateClientProfile fireAllRefreshEvents start
+221210 073948.078|SEVERE|Thread-914|error|java.lang.NullPointerException: Cannot invoke "edu.csus.ecs.pc2.core.model.Run.isDeleted()" because "this.run" is null
+|java.lang.NullPointerException: Cannot invoke "edu.csus.ecs.pc2.core.model.Run.isDeleted()" because "this.run" is null
+|    at edu.csus.ecs.pc2.api.implementation.RunImplementation.<init> (RunImplementation.java:118)
+|    at edu.csus.ecs.pc2.api.implementation.RunListenerList.fireRunListener (RunListenerList.java:33)
+|    at edu.csus.ecs.pc2.api.implementation.RunListenerList.access$000 (RunListenerList.java:22)
+|    at edu.csus.ecs.pc2.api.implementation.RunListenerList$Listener.refreshRuns (RunListenerList.java:150)
+|    at edu.csus.ecs.pc2.core.model.InternalContest.fireRunListener (InternalContest.java:434)
+|    at edu.csus.ecs.pc2.core.model.InternalContest.fireAllRefreshEvents (InternalContest.java:2880)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handleUpdateClientProfile (PacketHandler.java:996)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handleOtherPacketTypes (PacketHandler.java:413)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handlePacket (PacketHandler.java:267)
+|    at edu.csus.ecs.pc2.core.InternalController.receiveObject (InternalController.java:2441)
+|    at edu.csus.ecs.pc2.core.transport.TransportManager$2.run (TransportManager.java:343)
+|    at java.lang.Thread.run (Thread.java:833)
+221210 073948.088|INFO|Thread-914|info| receiveObject(S) end   got Packet[UPDATE_CLIENT_PROFILE] #395 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 074541.617|INFO|Thread-937|info| receiveObject(S) start got Packet[UPDATE_SETTING] #410 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074541.617|INFO|Thread-937|dumpPacket|Packet UPDATE_SETTING (Seq #410, o#81 ) recieveObject
+221210 074541.617|INFO|Thread-937|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074541.617|INFO|Thread-937|dumpPacket|    To: SERVER0 @ site 0
+221210 074541.617|INFO|Thread-937|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@75a6b99
+221210 074541.617|INFO|Thread-937|info|handlePacket start Packet[UPDATE_SETTING] #410 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074541.617|INFO|Thread-937|dumpPacket|Packet UPDATE_SETTING (Seq #410, o#81 ) handlePacket
+221210 074541.617|INFO|Thread-937|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074541.617|INFO|Thread-937|dumpPacket|    To: SERVER0 @ site 0
+221210 074541.617|INFO|Thread-937|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@75a6b99
+221210 074541.617|INFO|Thread-937|info|handlePacket end Packet[UPDATE_SETTING] #410 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074541.619|INFO|Thread-937|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #410 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074541.930|INFO|Thread-958|info| receiveObject(S) start got Packet[UPDATE_SETTING] #411 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074541.930|INFO|Thread-958|dumpPacket|Packet UPDATE_SETTING (Seq #411, o#83 ) recieveObject
+221210 074541.930|INFO|Thread-958|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074541.930|INFO|Thread-958|dumpPacket|    To: SERVER0 @ site 0
+221210 074541.930|INFO|Thread-958|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@53893a0f
+221210 074541.930|INFO|Thread-958|info|handlePacket start Packet[UPDATE_SETTING] #411 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074541.930|INFO|Thread-958|dumpPacket|Packet UPDATE_SETTING (Seq #411, o#83 ) handlePacket
+221210 074541.930|INFO|Thread-958|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074541.930|INFO|Thread-958|dumpPacket|    To: SERVER0 @ site 0
+221210 074541.930|INFO|Thread-958|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@53893a0f
+221210 074541.930|INFO|Thread-958|info|handlePacket end Packet[UPDATE_SETTING] #411 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074541.930|INFO|Thread-958|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #411 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074542.146|INFO|Thread-976|info| receiveObject(S) start got Packet[ADD_SETTING] #412 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074542.146|INFO|Thread-976|dumpPacket|Packet ADD_SETTING (Seq #412, o#84 ) recieveObject
+221210 074542.146|INFO|Thread-976|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074542.146|INFO|Thread-976|dumpPacket|    To: SERVER0 @ site 0
+221210 074542.146|INFO|Thread-976|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@6cda6cc2
+221210 074542.146|INFO|Thread-976|dumpPacket|   key: PROBLEM_DATA_FILES_LIST is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@621d8f29
+221210 074542.146|INFO|Thread-976|info|handlePacket start Packet[ADD_SETTING] #412 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074542.146|INFO|Thread-976|dumpPacket|Packet ADD_SETTING (Seq #412, o#84 ) handlePacket
+221210 074542.146|INFO|Thread-976|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074542.146|INFO|Thread-976|dumpPacket|    To: SERVER0 @ site 0
+221210 074542.146|INFO|Thread-976|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@6cda6cc2
+221210 074542.146|INFO|Thread-976|dumpPacket|   key: PROBLEM_DATA_FILES_LIST is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@621d8f29
+221210 074542.146|INFO|Thread-976|info|handlePacket end Packet[ADD_SETTING] #412 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074542.149|INFO|Thread-976|info| receiveObject(S) end   got Packet[ADD_SETTING] #412 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074542.347|INFO|Thread-997|info| receiveObject(S) start got Packet[UPDATE_SETTING] #413 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074542.347|INFO|Thread-997|dumpPacket|Packet UPDATE_SETTING (Seq #413, o#82 ) recieveObject
+221210 074542.347|INFO|Thread-997|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074542.347|INFO|Thread-997|dumpPacket|    To: SERVER0 @ site 0
+221210 074542.347|INFO|Thread-997|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 074542.348|INFO|Thread-997|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+221210 074542.348|INFO|Thread-997|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@6bd266df
+221210 074542.348|INFO|Thread-997|info|handlePacket start Packet[UPDATE_SETTING] #413 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074542.348|INFO|Thread-997|dumpPacket|Packet UPDATE_SETTING (Seq #413, o#82 ) handlePacket
+221210 074542.348|INFO|Thread-997|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074542.348|INFO|Thread-997|dumpPacket|    To: SERVER0 @ site 0
+221210 074542.348|INFO|Thread-997|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 074542.348|INFO|Thread-997|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+221210 074542.348|INFO|Thread-997|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@6bd266df
+221210 074542.348|INFO|Thread-997|info|handlePacket end Packet[UPDATE_SETTING] #413 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074542.350|INFO|Thread-997|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #413 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074620.369|INFO|Thread-1011|info| receiveObject(S) start got Packet[UPDATE_SETTING] #416 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074620.370|INFO|Thread-1011|dumpPacket|Packet UPDATE_SETTING (Seq #416, o#86 ) recieveObject
+221210 074620.370|INFO|Thread-1011|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074620.370|INFO|Thread-1011|dumpPacket|    To: SERVER0 @ site 0
+221210 074620.370|INFO|Thread-1011|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@301d21b7
+221210 074620.370|INFO|Thread-1011|info|handlePacket start Packet[UPDATE_SETTING] #416 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074620.370|INFO|Thread-1011|dumpPacket|Packet UPDATE_SETTING (Seq #416, o#86 ) handlePacket
+221210 074620.370|INFO|Thread-1011|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074620.370|INFO|Thread-1011|dumpPacket|    To: SERVER0 @ site 0
+221210 074620.370|INFO|Thread-1011|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@301d21b7
+221210 074620.370|INFO|Thread-1011|info|handlePacket end Packet[UPDATE_SETTING] #416 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074620.371|INFO|Thread-1011|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #416 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074620.582|INFO|Thread-1028|info| receiveObject(S) start got Packet[UPDATE_SETTING] #417 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074620.586|INFO|Thread-1028|dumpPacket|Packet UPDATE_SETTING (Seq #417, o#88 ) recieveObject
+221210 074620.586|INFO|Thread-1028|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074620.586|INFO|Thread-1028|dumpPacket|    To: SERVER0 @ site 0
+221210 074620.586|INFO|Thread-1028|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem dryrun
+221210 074620.586|INFO|Thread-1028|info|handlePacket start Packet[UPDATE_SETTING] #417 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074620.586|INFO|Thread-1028|dumpPacket|Packet UPDATE_SETTING (Seq #417, o#88 ) handlePacket
+221210 074620.586|INFO|Thread-1028|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074620.586|INFO|Thread-1028|dumpPacket|    To: SERVER0 @ site 0
+221210 074620.586|INFO|Thread-1028|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem dryrun
+221210 074620.586|INFO|Thread-1028|info|handlePacket end Packet[UPDATE_SETTING] #417 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074620.591|INFO|Thread-1028|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #417 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074620.773|INFO|Thread-1047|info| receiveObject(S) start got Packet[UPDATE_SETTING] #418 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074620.773|INFO|Thread-1047|dumpPacket|Packet UPDATE_SETTING (Seq #418, o#89 ) recieveObject
+221210 074620.774|INFO|Thread-1047|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074620.774|INFO|Thread-1047|dumpPacket|    To: SERVER0 @ site 0
+221210 074620.774|INFO|Thread-1047|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@6169e575
+221210 074620.774|INFO|Thread-1047|info|handlePacket start Packet[UPDATE_SETTING] #418 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074620.774|INFO|Thread-1047|dumpPacket|Packet UPDATE_SETTING (Seq #418, o#89 ) handlePacket
+221210 074620.774|INFO|Thread-1047|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074620.774|INFO|Thread-1047|dumpPacket|    To: SERVER0 @ site 0
+221210 074620.774|INFO|Thread-1047|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@6169e575
+221210 074620.774|INFO|Thread-1047|info|handlePacket end Packet[UPDATE_SETTING] #418 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074620.774|INFO|Thread-1047|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #418 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074621.007|INFO|Thread-1072|info| receiveObject(S) start got Packet[UPDATE_SETTING] #419 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074621.007|INFO|Thread-1072|dumpPacket|Packet UPDATE_SETTING (Seq #419, o#87 ) recieveObject
+221210 074621.007|INFO|Thread-1072|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074621.007|INFO|Thread-1072|dumpPacket|    To: SERVER0 @ site 0
+221210 074621.007|INFO|Thread-1072|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 074621.007|INFO|Thread-1072|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+221210 074621.007|INFO|Thread-1072|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@8729441
+221210 074621.007|INFO|Thread-1072|info|handlePacket start Packet[UPDATE_SETTING] #419 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074621.008|INFO|Thread-1072|dumpPacket|Packet UPDATE_SETTING (Seq #419, o#87 ) handlePacket
+221210 074621.008|INFO|Thread-1072|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Template--4588011539998560318)
+221210 074621.008|INFO|Thread-1072|dumpPacket|    To: SERVER0 @ site 0
+221210 074621.008|INFO|Thread-1072|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 074621.008|INFO|Thread-1072|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+221210 074621.008|INFO|Thread-1072|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@8729441
+221210 074621.008|INFO|Thread-1072|info|handlePacket end Packet[UPDATE_SETTING] #419 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074621.008|INFO|Thread-1072|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #419 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074654.174|INFO|Thread-1084|info| receiveObject(S) start got Packet[UPDATE_CLIENT_PROFILE] #439 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 074654.174|INFO|Thread-1084|dumpPacket|Packet UPDATE_CLIENT_PROFILE (Seq #439, o#439 ) recieveObject
+221210 074654.174|INFO|Thread-1084|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074654.174|INFO|Thread-1084|dumpPacket|    To: TEAM96 @ site 1
+221210 074654.174|INFO|Thread-1084|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@72db3244
+221210 074654.174|INFO|Thread-1084|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+221210 074654.174|INFO|Thread-1084|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@7c1cc26f
+221210 074654.174|INFO|Thread-1084|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@78235934
+221210 074654.174|INFO|Thread-1084|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@3d21c854
+221210 074654.174|INFO|Thread-1084|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@16c384a6
+221210 074654.174|INFO|Thread-1084|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@cd633ab
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@6ede21fc
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@5d0e371b
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@57e26ea8
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile DryRun--5544400451244233091
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM96 @ site 1
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@6a144494
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@75da49eb
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@59400ea4
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@1d93ac0a
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@55eb6bc8
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@7259f58f
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@2bb5f04e
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1670680014085,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2022,MONTH=11,WEEK_OF_YEAR=50,WEEK_OF_MONTH=2,DAY_OF_MONTH=10,DAY_OF_YEAR=344,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=46,SECOND=54,MILLISECOND=85,ZONE_OFFSET=0,DST_OFFSET=0]
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: NEW_PROFILE is: edu.csus.ecs.pc2.core.model.Profile DryRun--5544400451244233091
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String DryRun--5544400451244233091
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@2b46face
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@257d6145
+221210 074654.175|INFO|Thread-1084|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@18b50de8
+221210 074654.175|INFO|Thread-1084|info|handlePacket start Packet[UPDATE_CLIENT_PROFILE] #439 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 074654.176|INFO|Thread-1084|dumpPacket|Packet UPDATE_CLIENT_PROFILE (Seq #439, o#439 ) handlePacket
+221210 074654.176|INFO|Thread-1084|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074654.176|INFO|Thread-1084|dumpPacket|    To: TEAM96 @ site 1
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@72db3244
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@7c1cc26f
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@78235934
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@3d21c854
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@16c384a6
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@cd633ab
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@6ede21fc
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@5d0e371b
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@57e26ea8
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile DryRun--5544400451244233091
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM96 @ site 1
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@6a144494
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@75da49eb
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@59400ea4
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@1d93ac0a
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@55eb6bc8
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@7259f58f
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@2bb5f04e
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1670680014085,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2022,MONTH=11,WEEK_OF_YEAR=50,WEEK_OF_MONTH=2,DAY_OF_MONTH=10,DAY_OF_YEAR=344,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=46,SECOND=54,MILLISECOND=85,ZONE_OFFSET=0,DST_OFFSET=0]
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: NEW_PROFILE is: edu.csus.ecs.pc2.core.model.Profile DryRun--5544400451244233091
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String DryRun--5544400451244233091
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@2b46face
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@257d6145
+221210 074654.176|INFO|Thread-1084|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@18b50de8
+221210 074654.176|INFO|Thread-1084|reRegisterPlugins|plugin.setContestAndController for API Contest class
+221210 074654.176|INFO|Thread-1084|info|handleUpdateClientProfile fireAllRefreshEvents start
+221210 074654.179|SEVERE|Thread-1084|error|java.lang.NullPointerException: Cannot invoke "edu.csus.ecs.pc2.core.model.Run.isDeleted()" because "this.run" is null
+|java.lang.NullPointerException: Cannot invoke "edu.csus.ecs.pc2.core.model.Run.isDeleted()" because "this.run" is null
+|    at edu.csus.ecs.pc2.api.implementation.RunImplementation.<init> (RunImplementation.java:118)
+|    at edu.csus.ecs.pc2.api.implementation.RunListenerList.fireRunListener (RunListenerList.java:33)
+|    at edu.csus.ecs.pc2.api.implementation.RunListenerList.access$000 (RunListenerList.java:22)
+|    at edu.csus.ecs.pc2.api.implementation.RunListenerList$Listener.refreshRuns (RunListenerList.java:150)
+|    at edu.csus.ecs.pc2.core.model.InternalContest.fireRunListener (InternalContest.java:434)
+|    at edu.csus.ecs.pc2.core.model.InternalContest.fireAllRefreshEvents (InternalContest.java:2880)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handleUpdateClientProfile (PacketHandler.java:996)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handleOtherPacketTypes (PacketHandler.java:413)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handlePacket (PacketHandler.java:267)
+|    at edu.csus.ecs.pc2.core.InternalController.receiveObject (InternalController.java:2441)
+|    at edu.csus.ecs.pc2.core.transport.TransportManager$2.run (TransportManager.java:343)
+|    at java.lang.Thread.run (Thread.java:833)
+221210 074654.179|INFO|Thread-1084|info| receiveObject(S) end   got Packet[UPDATE_CLIENT_PROFILE] #439 SERVER0 @ site 1 -> TEAM96 @ site 1
+221210 074703.878|INFO|Thread-1093|info| receiveObject(S) start got Packet[UPDATE_SETTING] #442 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.878|INFO|Thread-1093|dumpPacket|Packet UPDATE_SETTING (Seq #442, o#92 ) recieveObject
+221210 074703.878|INFO|Thread-1093|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074703.878|INFO|Thread-1093|dumpPacket|    To: SERVER0 @ site 0
+221210 074703.878|INFO|Thread-1093|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@3f4de115
+221210 074703.878|INFO|Thread-1093|info|handlePacket start Packet[UPDATE_SETTING] #442 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.878|INFO|Thread-1093|dumpPacket|Packet UPDATE_SETTING (Seq #442, o#92 ) handlePacket
+221210 074703.878|INFO|Thread-1093|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074703.878|INFO|Thread-1093|dumpPacket|    To: SERVER0 @ site 0
+221210 074703.878|INFO|Thread-1093|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@3f4de115
+221210 074703.879|INFO|Thread-1093|info|handlePacket end Packet[UPDATE_SETTING] #442 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.879|INFO|Thread-1093|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #442 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.942|INFO|Thread-1108|info| receiveObject(S) start got Packet[ADD_SETTING] #443 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.942|INFO|Thread-1108|dumpPacket|Packet ADD_SETTING (Seq #443, o#95 ) recieveObject
+221210 074703.942|INFO|Thread-1108|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074703.942|INFO|Thread-1108|dumpPacket|    To: SERVER0 @ site 0
+221210 074703.942|INFO|Thread-1108|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@7e2efa09
+221210 074703.942|INFO|Thread-1108|dumpPacket|   key: PROBLEM_DATA_FILES_LIST is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@70e91bbc
+221210 074703.942|INFO|Thread-1108|info|handlePacket start Packet[ADD_SETTING] #443 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.942|INFO|Thread-1108|dumpPacket|Packet ADD_SETTING (Seq #443, o#95 ) handlePacket
+221210 074703.942|INFO|Thread-1108|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074703.942|INFO|Thread-1108|dumpPacket|    To: SERVER0 @ site 0
+221210 074703.942|INFO|Thread-1108|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@7e2efa09
+221210 074703.942|INFO|Thread-1108|dumpPacket|   key: PROBLEM_DATA_FILES_LIST is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@70e91bbc
+221210 074703.942|INFO|Thread-1108|info|handlePacket end Packet[ADD_SETTING] #443 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.942|INFO|Thread-1108|info| receiveObject(S) end   got Packet[ADD_SETTING] #443 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.980|INFO|Thread-1130|info| receiveObject(S) start got Packet[UPDATE_SETTING] #444 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.981|INFO|Thread-1130|dumpPacket|Packet UPDATE_SETTING (Seq #444, o#94 ) recieveObject
+221210 074703.981|INFO|Thread-1130|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074703.981|INFO|Thread-1130|dumpPacket|    To: SERVER0 @ site 0
+221210 074703.981|INFO|Thread-1130|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@2debd373
+221210 074703.981|INFO|Thread-1130|info|handlePacket start Packet[UPDATE_SETTING] #444 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.981|INFO|Thread-1130|dumpPacket|Packet UPDATE_SETTING (Seq #444, o#94 ) handlePacket
+221210 074703.981|INFO|Thread-1130|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074703.981|INFO|Thread-1130|dumpPacket|    To: SERVER0 @ site 0
+221210 074703.981|INFO|Thread-1130|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@2debd373
+221210 074703.981|INFO|Thread-1130|info|handlePacket end Packet[UPDATE_SETTING] #444 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.985|INFO|Thread-1130|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #444 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.994|INFO|Thread-1151|info| receiveObject(S) start got Packet[UPDATE_SETTING] #445 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.994|INFO|Thread-1151|dumpPacket|Packet UPDATE_SETTING (Seq #445, o#93 ) recieveObject
+221210 074703.994|INFO|Thread-1151|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074703.994|INFO|Thread-1151|dumpPacket|    To: SERVER0 @ site 0
+221210 074703.994|INFO|Thread-1151|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 074703.994|INFO|Thread-1151|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+221210 074703.994|INFO|Thread-1151|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@137ac021
+221210 074703.994|INFO|Thread-1151|info|handlePacket start Packet[UPDATE_SETTING] #445 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.994|INFO|Thread-1151|dumpPacket|Packet UPDATE_SETTING (Seq #445, o#93 ) handlePacket
+221210 074703.994|INFO|Thread-1151|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074703.994|INFO|Thread-1151|dumpPacket|    To: SERVER0 @ site 0
+221210 074703.994|INFO|Thread-1151|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 074703.994|INFO|Thread-1151|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+221210 074703.994|INFO|Thread-1151|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@137ac021
+221210 074703.994|INFO|Thread-1151|info|handlePacket end Packet[UPDATE_SETTING] #445 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074703.994|INFO|Thread-1151|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #445 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074714.476|INFO|Thread-1163|info| receiveObject(S) start got Packet[UPDATE_SETTING] #453 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074714.476|INFO|Thread-1163|dumpPacket|Packet UPDATE_SETTING (Seq #453, o#97 ) recieveObject
+221210 074714.476|INFO|Thread-1163|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074714.477|INFO|Thread-1163|dumpPacket|    To: SERVER0 @ site 0
+221210 074714.477|INFO|Thread-1163|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem dryrun
+221210 074714.477|INFO|Thread-1163|info|handlePacket start Packet[UPDATE_SETTING] #453 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074714.477|INFO|Thread-1163|dumpPacket|Packet UPDATE_SETTING (Seq #453, o#97 ) handlePacket
+221210 074714.477|INFO|Thread-1163|dumpPacket|  From: SERVER0 @ site 1, oADMINISTRATOR1 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074714.477|INFO|Thread-1163|dumpPacket|    To: SERVER0 @ site 0
+221210 074714.477|INFO|Thread-1163|dumpPacket|   key: PROBLEM is: edu.csus.ecs.pc2.core.model.Problem dryrun
+221210 074714.477|INFO|Thread-1163|info|handlePacket end Packet[UPDATE_SETTING] #453 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074714.477|INFO|Thread-1163|info| receiveObject(S) end   got Packet[UPDATE_SETTING] #453 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074724.559|INFO|Thread-1183|info| receiveObject(S) start got Packet[CLOCK_STARTED] #457 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074724.559|INFO|Thread-1183|dumpPacket|Packet CLOCK_STARTED (Seq #457, o#457 ) recieveObject
+221210 074724.559|INFO|Thread-1183|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074724.559|INFO|Thread-1183|dumpPacket|    To: SERVER0 @ site 0
+221210 074724.559|INFO|Thread-1183|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 074724.559|INFO|Thread-1183|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+221210 074724.559|INFO|Thread-1183|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1670680044537,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2022,MONTH=11,WEEK_OF_YEAR=50,WEEK_OF_MONTH=2,DAY_OF_MONTH=10,DAY_OF_YEAR=344,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=47,SECOND=24,MILLISECOND=537,ZONE_OFFSET=0,DST_OFFSET=0]
+221210 074724.559|INFO|Thread-1183|info|handlePacket start Packet[CLOCK_STARTED] #457 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 074724.559|INFO|Thread-1183|dumpPacket|Packet CLOCK_STARTED (Seq #457, o#457 ) handlePacket
+221210 074724.559|INFO|Thread-1183|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 074724.559|INFO|Thread-1183|dumpPacket|    To: SERVER0 @ site 0
+221210 074724.559|INFO|Thread-1183|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+221210 074724.559|INFO|Thread-1183|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+221210 074724.559|INFO|Thread-1183|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1670680044537,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2022,MONTH=11,WEEK_OF_YEAR=50,WEEK_OF_MONTH=2,DAY_OF_MONTH=10,DAY_OF_YEAR=344,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=47,SECOND=24,MILLISECOND=537,ZONE_OFFSET=0,DST_OFFSET=0]
+221210 074724.559|INFO|Thread-1183|info|Clock for site 1 started by ADMINISTRATOR1 @ site 1 elapsed 0:00:00
+221210 074724.559|INFO|Thread-1183|info| receiveObject(S) end   got Packet[CLOCK_STARTED] #457 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 083216.064|INFO|Thread-6246|info| receiveObject(S) start got Packet[CLARIFICATION_ANSWER_UPDATE] #1121 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 083216.064|INFO|Thread-6246|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #1121, o#1121 ) recieveObject
+221210 083216.064|INFO|Thread-6246|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 083216.064|INFO|Thread-6246|dumpPacket|    To: SERVER0 @ site 0
+221210 083216.064|INFO|Thread-6246|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 1 ANSWERED from JUDGE1 @ site 1 at 44 id=Clarification--3557425780297126467
+221210 083216.064|INFO|Thread-6246|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+221210 083216.064|INFO|Thread-6246|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE9 @ site 1
+221210 083216.064|INFO|Thread-6246|info|handlePacket start Packet[CLARIFICATION_ANSWER_UPDATE] #1121 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 083216.064|INFO|Thread-6246|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #1121, o#1121 ) handlePacket
+221210 083216.064|INFO|Thread-6246|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 083216.064|INFO|Thread-6246|dumpPacket|    To: SERVER0 @ site 0
+221210 083216.065|INFO|Thread-6246|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 1 ANSWERED from JUDGE1 @ site 1 at 44 id=Clarification--3557425780297126467
+221210 083216.065|INFO|Thread-6246|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String No response, read problem statement
+221210 083216.065|INFO|Thread-6246|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE9 @ site 1
+221210 083216.065|INFO|Thread-6246|info| receiveObject(S) end   got Packet[CLARIFICATION_ANSWER_UPDATE] #1121 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 084028.493|INFO|Thread-10309|info| receiveObject(S) start got Packet[CLARIFICATION_ANSWER_UPDATE] #1383 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 084028.493|INFO|Thread-10309|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #1383, o#1383 ) recieveObject
+221210 084028.493|INFO|Thread-10309|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 084028.493|INFO|Thread-10309|dumpPacket|    To: SERVER0 @ site 0
+221210 084028.493|INFO|Thread-10309|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 2 ANSWERED from TEAM36 @ site 1 at 51 id=Clarification--2605015397721620792
+221210 084028.493|INFO|Thread-10309|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String Dont use System.in, use file input
+221210 084028.493|INFO|Thread-10309|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE5 @ site 1
+221210 084028.493|INFO|Thread-10309|info|handlePacket start Packet[CLARIFICATION_ANSWER_UPDATE] #1383 SERVER0 @ site 1 -> SERVER0 @ site 0
+221210 084028.493|INFO|Thread-10309|dumpPacket|Packet CLARIFICATION_ANSWER_UPDATE (Seq #1383, o#1383 ) handlePacket
+221210 084028.493|INFO|Thread-10309|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5544400451244233091)
+221210 084028.493|INFO|Thread-10309|dumpPacket|    To: SERVER0 @ site 0
+221210 084028.493|INFO|Thread-10309|dumpPacket|   key: CLARIFICATION is: edu.csus.ecs.pc2.core.model.Clarification Clarification 2 ANSWERED from TEAM36 @ site 1 at 51 id=Clarification--2605015397721620792
+221210 084028.493|INFO|Thread-10309|dumpPacket|   key: CLARIFICATION_ANSWER is: java.lang.String Dont use System.in, use file input
+221210 084028.493|INFO|Thread-10309|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId JUDGE5 @ site 1
+221210 084028.494|INFO|Thread-10309|info| receiveObject(S) end   got Packet[CLARIFICATION_ANSWER_UPDATE] #1383 SERVER0 @ site 1 -> SERVER0 @ site 0
+231209 073348.423|CONFIG|Thread-268|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+231209 073348.423|INFO|Thread-268|info|
+231209 073348.423|INFO|Thread-268|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+231209 073348.423|INFO|Thread-268|info|Login: team96 (aka team96)
+231209 073348.423|INFO|Thread-268|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+231209 073348.423|INFO|Thread-268|startLog|Process id is 15028@DESKTOP-D75BQTV
+231209 073348.423|INFO|Thread-268|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+231209 073348.423|INFO|Thread-268|info|handlePacket end Packet[LOGIN_SUCCESS] #255 SERVER0 @ site 1 -> TEAM96 @ site 1
+231209 073348.423|INFO|Thread-268|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #255 SERVER0 @ site 1 -> TEAM96 @ site 1
+231209 074043.406|INFO|Thread-289|info| receiveObject(S) start got Packet[CLOCK_STOPPED] #265 SERVER0 @ site 1 -> SERVER0 @ site 0
+231209 074043.407|INFO|Thread-289|dumpPacket|Packet CLOCK_STOPPED (Seq #265, o#265 ) recieveObject
+231209 074043.407|INFO|Thread-289|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5830290502122144214)
+231209 074043.407|INFO|Thread-289|dumpPacket|    To: SERVER0 @ site 0
+231209 074043.407|INFO|Thread-289|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+231209 074043.407|INFO|Thread-289|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+231209 074043.407|INFO|Thread-289|info|handlePacket start Packet[CLOCK_STOPPED] #265 SERVER0 @ site 1 -> SERVER0 @ site 0
+231209 074043.407|INFO|Thread-289|dumpPacket|Packet CLOCK_STOPPED (Seq #265, o#265 ) handlePacket
+231209 074043.407|INFO|Thread-289|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5830290502122144214)
+231209 074043.407|INFO|Thread-289|dumpPacket|    To: SERVER0 @ site 0
+231209 074043.407|INFO|Thread-289|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+231209 074043.407|INFO|Thread-289|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+231209 074043.408|INFO|Thread-289|info|Clock for site 1 stopped by ADMINISTRATOR1 @ site 1 elapsed 0:48:26
+231209 074043.427|INFO|Thread-289|info| receiveObject(S) end   got Packet[CLOCK_STOPPED] #265 SERVER0 @ site 1 -> SERVER0 @ site 0
+231209 074044.553|INFO|Thread-308|info| receiveObject(S) start got Packet[CLOCK_STOPPED] #266 SERVER0 @ site 1 -> SERVER0 @ site 0
+231209 074044.553|INFO|Thread-308|dumpPacket|Packet CLOCK_STOPPED (Seq #266, o#266 ) recieveObject
+231209 074044.554|INFO|Thread-308|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5830290502122144214)
+231209 074044.554|INFO|Thread-308|dumpPacket|    To: SERVER0 @ site 0
+231209 074044.554|INFO|Thread-308|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+231209 074044.554|INFO|Thread-308|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+231209 074044.554|INFO|Thread-308|info|handlePacket start Packet[CLOCK_STOPPED] #266 SERVER0 @ site 1 -> SERVER0 @ site 0
+231209 074044.554|INFO|Thread-308|dumpPacket|Packet CLOCK_STOPPED (Seq #266, o#266 ) handlePacket
+231209 074044.554|INFO|Thread-308|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--5830290502122144214)
+231209 074044.554|INFO|Thread-308|dumpPacket|    To: SERVER0 @ site 0
+231209 074044.554|INFO|Thread-308|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+231209 074044.555|INFO|Thread-308|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+231209 074044.555|INFO|Thread-308|info|Clock for site 1 stopped by ADMINISTRATOR1 @ site 1 elapsed 0:48:26
+231209 074044.567|INFO|Thread-308|info| receiveObject(S) end   got Packet[CLOCK_STOPPED] #266 SERVER0 @ site 1 -> SERVER0 @ site 0
+231209 074052.723|INFO|Thread-329|info| receiveObject(S) start got Packet[UPDATE_CLIENT_PROFILE] #278 SERVER0 @ site 1 -> TEAM96 @ site 1
+231209 074052.724|INFO|Thread-329|dumpPacket|Packet UPDATE_CLIENT_PROFILE (Seq #278, o#278 ) recieveObject
+231209 074052.724|INFO|Thread-329|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 074052.724|INFO|Thread-329|dumpPacket|    To: TEAM96 @ site 1
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@3cfd63eb
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@323a9a04
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@3605089b
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@7307903f
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@2432578f
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@42be03b7
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@5c619aab
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@13286f70
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@2510ccb5
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile DryRun--6069080675419338087
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM96 @ site 1
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@1701c01b
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@4765b492
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@176610e1
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@343013dc
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@2d281c59
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@4703ec4a
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@60451d53
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1702129252507,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2023,MONTH=11,WEEK_OF_YEAR=49,WEEK_OF_MONTH=2,DAY_OF_MONTH=9,DAY_OF_YEAR=343,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=40,SECOND=52,MILLISECOND=507,ZONE_OFFSET=0,DST_OFFSET=0]
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: NEW_PROFILE is: edu.csus.ecs.pc2.core.model.Profile DryRun--6069080675419338087
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String DryRun--6069080675419338087
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@54df5c74
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@39f85862
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@61c182ab
+231209 074052.724|INFO|Thread-329|info|handlePacket start Packet[UPDATE_CLIENT_PROFILE] #278 SERVER0 @ site 1 -> TEAM96 @ site 1
+231209 074052.724|INFO|Thread-329|dumpPacket|Packet UPDATE_CLIENT_PROFILE (Seq #278, o#278 ) handlePacket
+231209 074052.724|INFO|Thread-329|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 074052.724|INFO|Thread-329|dumpPacket|    To: TEAM96 @ site 1
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: PROFILE_LIST is: [Ledu.csus.ecs.pc2.core.model.Profile; [Ledu.csus.ecs.pc2.core.model.Profile;@3cfd63eb
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: GENERAL_PROBLEM is: edu.csus.ecs.pc2.core.model.Problem General
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CONTEST_TIME is: edu.csus.ecs.pc2.core.model.ContestTime edu.csus.ecs.pc2.core.model.ContestTime@323a9a04
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CLIENT_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.ClientSettings; [Ledu.csus.ecs.pc2.core.model.ClientSettings;@3605089b
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CLARIFICATION_LIST is: [Ledu.csus.ecs.pc2.core.model.Clarification; [Ledu.csus.ecs.pc2.core.model.Clarification;@7307903f
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CATEGORY_LIST is: [Ledu.csus.ecs.pc2.core.model.Category; [Ledu.csus.ecs.pc2.core.model.Category;@2432578f
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: LANGUAGE_LIST is: [Ledu.csus.ecs.pc2.core.model.Language; [Ledu.csus.ecs.pc2.core.model.Language;@42be03b7
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: REMOTE_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@5c619aab
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CONTEST_TIME_LIST is: [Ledu.csus.ecs.pc2.core.model.ContestTime; [Ledu.csus.ecs.pc2.core.model.ContestTime;@13286f70
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CONNECTION_HANDLE_ID_LIST is: [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID; [Ledu.csus.ecs.pc2.core.transport.ConnectionHandlerID;@2510ccb5
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: PROFILE is: edu.csus.ecs.pc2.core.model.Profile DryRun--6069080675419338087
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId TEAM96 @ site 1
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CONTEST_INFORMATION is: edu.csus.ecs.pc2.core.model.ContestInformation edu.csus.ecs.pc2.core.model.ContestInformation@1701c01b
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: SITE_LIST is: [Ledu.csus.ecs.pc2.core.model.Site; [Ledu.csus.ecs.pc2.core.model.Site;@4765b492
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: PROBLEM_DATA_FILES is: [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles; [Ledu.csus.ecs.pc2.core.model.ProblemDataFiles;@176610e1
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: JUDGEMENT_LIST is: [Ledu.csus.ecs.pc2.core.model.Judgement; [Ledu.csus.ecs.pc2.core.model.Judgement;@343013dc
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: PROBLEM_LIST is: [Ledu.csus.ecs.pc2.core.model.Problem; [Ledu.csus.ecs.pc2.core.model.Problem;@2d281c59
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: GROUP_LIST is: [Ledu.csus.ecs.pc2.core.model.Group; [Ledu.csus.ecs.pc2.core.model.Group;@4703ec4a
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: LOCAL_LOGGED_IN_USERS is: [Ledu.csus.ecs.pc2.core.model.ClientId; [Ledu.csus.ecs.pc2.core.model.ClientId;@60451d53
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1702129252507,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2023,MONTH=11,WEEK_OF_YEAR=49,WEEK_OF_MONTH=2,DAY_OF_MONTH=9,DAY_OF_YEAR=343,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=40,SECOND=52,MILLISECOND=507,ZONE_OFFSET=0,DST_OFFSET=0]
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: NEW_PROFILE is: edu.csus.ecs.pc2.core.model.Profile DryRun--6069080675419338087
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: CONTEST_IDENTIFIER is: java.lang.String DryRun--6069080675419338087
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: BALLOON_SETTINGS_LIST is: [Ledu.csus.ecs.pc2.core.model.BalloonSettings; [Ledu.csus.ecs.pc2.core.model.BalloonSettings;@54df5c74
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: RUN_LIST is: [Ledu.csus.ecs.pc2.core.model.Run; [Ledu.csus.ecs.pc2.core.model.Run;@39f85862
+231209 074052.724|INFO|Thread-329|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@61c182ab
+231209 074052.724|INFO|Thread-329|reRegisterPlugins|plugin.setContestAndController for API Contest class
+231209 074052.724|INFO|Thread-329|info|handleUpdateClientProfile fireAllRefreshEvents start
+231209 074052.756|SEVERE|Thread-329|error|java.lang.NullPointerException: Cannot invoke "edu.csus.ecs.pc2.core.model.Run.isDeleted()" because "this.run" is null
+|java.lang.NullPointerException: Cannot invoke "edu.csus.ecs.pc2.core.model.Run.isDeleted()" because "this.run" is null
+|    at edu.csus.ecs.pc2.api.implementation.RunImplementation.<init> (RunImplementation.java:118)
+|    at edu.csus.ecs.pc2.api.implementation.RunListenerList.fireRunListener (RunListenerList.java:33)
+|    at edu.csus.ecs.pc2.api.implementation.RunListenerList.access$000 (RunListenerList.java:22)
+|    at edu.csus.ecs.pc2.api.implementation.RunListenerList$Listener.refreshRuns (RunListenerList.java:150)
+|    at edu.csus.ecs.pc2.core.model.InternalContest.fireRunListener (InternalContest.java:434)
+|    at edu.csus.ecs.pc2.core.model.InternalContest.fireAllRefreshEvents (InternalContest.java:2880)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handleUpdateClientProfile (PacketHandler.java:996)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handleOtherPacketTypes (PacketHandler.java:413)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handlePacket (PacketHandler.java:267)
+|    at edu.csus.ecs.pc2.core.InternalController.receiveObject (InternalController.java:2441)
+|    at edu.csus.ecs.pc2.core.transport.TransportManager$2.run (TransportManager.java:343)
+|    at java.lang.Thread.run (Thread.java:833)
+231209 074052.756|INFO|Thread-329|info| receiveObject(S) end   got Packet[UPDATE_CLIENT_PROFILE] #278 SERVER0 @ site 1 -> TEAM96 @ site 1
+231209 074058.427|INFO|Thread-343|info| receiveObject(S) start got Packet[CLOCK_STARTED] #282 SERVER0 @ site 1 -> SERVER0 @ site 0
+231209 074058.427|INFO|Thread-343|dumpPacket|Packet CLOCK_STARTED (Seq #282, o#282 ) recieveObject
+231209 074058.427|INFO|Thread-343|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 074058.427|INFO|Thread-343|dumpPacket|    To: SERVER0 @ site 0
+231209 074058.427|INFO|Thread-343|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+231209 074058.427|INFO|Thread-343|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+231209 074058.427|INFO|Thread-343|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1702129258392,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2023,MONTH=11,WEEK_OF_YEAR=49,WEEK_OF_MONTH=2,DAY_OF_MONTH=9,DAY_OF_YEAR=343,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=40,SECOND=58,MILLISECOND=392,ZONE_OFFSET=0,DST_OFFSET=0]
+231209 074058.427|INFO|Thread-343|info|handlePacket start Packet[CLOCK_STARTED] #282 SERVER0 @ site 1 -> SERVER0 @ site 0
+231209 074058.427|INFO|Thread-343|dumpPacket|Packet CLOCK_STARTED (Seq #282, o#282 ) handlePacket
+231209 074058.427|INFO|Thread-343|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 074058.427|INFO|Thread-343|dumpPacket|    To: SERVER0 @ site 0
+231209 074058.427|INFO|Thread-343|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+231209 074058.427|INFO|Thread-343|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId ADMINISTRATOR1 @ site 1
+231209 074058.427|INFO|Thread-343|dumpPacket|   key: SERVER_CLOCK_OFFSET is: java.util.GregorianCalendar java.util.GregorianCalendar[time=1702129258392,areFieldsSet=true,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2023,MONTH=11,WEEK_OF_YEAR=49,WEEK_OF_MONTH=2,DAY_OF_MONTH=9,DAY_OF_YEAR=343,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=40,SECOND=58,MILLISECOND=392,ZONE_OFFSET=0,DST_OFFSET=0]
+231209 074058.431|INFO|Thread-343|info|Clock for site 1 started by ADMINISTRATOR1 @ site 1 elapsed 0:00:00
+231209 074058.432|INFO|Thread-343|info| receiveObject(S) end   got Packet[CLOCK_STARTED] #282 SERVER0 @ site 1 -> SERVER0 @ site 0
+231209 080344.552|INFO|qtp135640095-380|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #56 TEAM96 @ site 1 -> SERVER0 @ site 1
+231209 080344.552|INFO|qtp135640095-380|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #56 TEAM96 @ site 1 -> SERVER0 @ site 1
+231209 080344.584|INFO|Thread-880|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #440 SERVER0 @ site 1 -> TEAM96 @ site 1
+231209 080344.585|INFO|Thread-880|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #440, o#440 ) recieveObject
+231209 080344.585|INFO|Thread-880|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 080344.585|INFO|Thread-880|dumpPacket|    To: TEAM96 @ site 1
+231209 080344.585|INFO|Thread-880|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 NEW 22 min 1366168ms from TEAM96 @ site 1 id Run--5450900611513105315 problem DryRun--5056188413862619659 lang Java--8800253324652192008
+231209 080344.585|INFO|Thread-880|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #440 SERVER0 @ site 1 -> TEAM96 @ site 1
+231209 080344.585|INFO|Thread-880|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #440, o#440 ) handlePacket
+231209 080344.585|INFO|Thread-880|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 080344.585|INFO|Thread-880|dumpPacket|    To: TEAM96 @ site 1
+231209 080344.585|INFO|Thread-880|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 NEW 22 min 1366168ms from TEAM96 @ site 1 id Run--5450900611513105315 problem DryRun--5056188413862619659 lang Java--8800253324652192008
+231209 080344.585|INFO|Thread-880|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #440 SERVER0 @ site 1 -> TEAM96 @ site 1
+231209 080357.357|INFO|Thread-960|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #450 SERVER0 @ site 1 -> TEAM96 @ site 1
+231209 080357.357|INFO|Thread-960|dumpPacket|Packet RUN_JUDGEMENT (Seq #450, o#450 ) recieveObject
+231209 080357.357|INFO|Thread-960|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 080357.357|INFO|Thread-960|dumpPacket|    To: TEAM96 @ site 1
+231209 080357.357|INFO|Thread-960|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE3 @ site 1 judgement Yes-2915828768858405923 id JudgementRecord-6145306088731311416
+231209 080357.357|INFO|Thread-960|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 JUDGED 22 min 1366168ms from TEAM96 @ site 1 id Run--5450900611513105315 problem DryRun--5056188413862619659 lang Java--8800253324652192008
+231209 080357.357|INFO|Thread-960|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+231209 080357.357|INFO|Thread-960|info|handlePacket start Packet[RUN_JUDGEMENT] #450 SERVER0 @ site 1 -> TEAM96 @ site 1
+231209 080357.357|INFO|Thread-960|dumpPacket|Packet RUN_JUDGEMENT (Seq #450, o#450 ) handlePacket
+231209 080357.358|INFO|Thread-960|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: DryRun--6069080675419338087)
+231209 080357.358|INFO|Thread-960|dumpPacket|    To: TEAM96 @ site 1
+231209 080357.358|INFO|Thread-960|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE3 @ site 1 judgement Yes-2915828768858405923 id JudgementRecord-6145306088731311416
+231209 080357.358|INFO|Thread-960|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 8 JUDGED 22 min 1366168ms from TEAM96 @ site 1 id Run--5450900611513105315 problem DryRun--5056188413862619659 lang Java--8800253324652192008
+231209 080357.358|INFO|Thread-960|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+231209 080357.358|INFO|Thread-960|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #450 SERVER0 @ site 1 -> TEAM96 @ site 1

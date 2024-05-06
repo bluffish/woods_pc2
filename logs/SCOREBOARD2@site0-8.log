@@ -1,0 +1,43 @@
+221130 090522.109|CONFIG|qtp988458918-23|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2-template\WebTeamInterface-1.1\logs directory.
+221130 090522.109|INFO|qtp988458918-23|info|
+221130 090522.110|INFO|qtp988458918-23|info|Version 9 () Java ver 1.8.0_51 build  Windows 8.1 6.3 (amd64) 
+221130 090522.110|INFO|qtp988458918-23|info|Login: scoreboard2 (aka scoreboard2)
+221130 090522.110|INFO|qtp988458918-23|startLog|Working directory is C:\Users\18328\Desktop\pc2-template\WebTeamInterface-1.1
+221130 090522.110|INFO|qtp988458918-23|startLog|Process id is 13684@DESKTOP-D75BQTV
+221130 090522.111|INFO|qtp988458918-23|info|Contacting server at localhost:50002 as SCOREBOARD2 @ site 0
+221130 090522.111|INFO|qtp988458918-23|info|sendLoginRequest start - sending from SCOREBOARD2 @ site 0
+221130 090522.111|INFO|qtp988458918-23|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #13 SCOREBOARD2 @ site 0 -> SERVER0 @ site 0
+221130 090522.112|INFO|qtp988458918-23|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #13 SCOREBOARD2 @ site 0 -> SERVER0 @ site 0
+221130 090522.112|INFO|qtp988458918-23|info|sendLoginRequest end - packet sent.
+221130 090522.112|INFO|Thread-137|run|send(Serializable)
+221130 090522.130|INFO|Thread-136|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=57434]--2884249487991379481 key is com.sun.crypto.provider.DESKey@fffe7b4b
+221130 090522.130|INFO|Thread-136|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+221130 090522.130|INFO|Thread-136|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    30c8cc76 01b7d2f8 26aecf82 3afde596 ee6ca8a9 561ebfcf 2a005b21 a63446bb
+    2a1b9b5b 47d3fef0 ad2470fc 2b6a047d c4632998 bf87bfeb 3535e8d2 116f947b
+    d6ee8fa9 eedca144 56022b23 4b39bdae 9509d82f 6d45e853 d0eafbce faef92d8
+    11c54b37 3c6fa7da bbcafb89 abd1f085 aeb3d0df a1cc6826 d5490e8f 91194ed0
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+221130 090522.130|INFO|Thread-136|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@2b2bfda2
+221130 090522.142|INFO|Thread-136|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+221130 090522.142|INFO|Thread-138|info| receiveObject(S) start got Packet[LOGIN_FAILED] #44 SERVER0 @ site 1 -> SCOREBOARD2 @ site 0
+221130 090522.142|INFO|Thread-138|dumpPacket|Packet LOGIN_FAILED (Seq #44, o#44 ) recieveObject
+221130 090522.142|INFO|Thread-138|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.138) (Contest Id: Default--4708004230601002395)
+221130 090522.142|INFO|Thread-138|dumpPacket|    To: SCOREBOARD2 @ site 0
+221130 090522.142|INFO|Thread-138|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+221130 090522.142|INFO|Thread-138|info|handlePacket start Packet[LOGIN_FAILED] #44 SERVER0 @ site 1 -> SCOREBOARD2 @ site 0
+221130 090522.142|INFO|Thread-138|dumpPacket|Packet LOGIN_FAILED (Seq #44, o#44 ) handlePacket
+221130 090522.142|INFO|Thread-138|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.138) (Contest Id: Default--4708004230601002395)
+221130 090522.142|INFO|Thread-138|dumpPacket|    To: SCOREBOARD2 @ site 0
+221130 090522.142|INFO|Thread-138|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+221130 090522.142|INFO|Thread-138|info| receiveObject(S) end   got Packet[LOGIN_FAILED] #44 SERVER0 @ site 1 -> SCOREBOARD2 @ site 0
+221130 090849.360|INFO|Thread-136|connectionDropped|connectionDropped(ConnectionHandlerID myConnectionID) 

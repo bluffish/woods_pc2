@@ -1,0 +1,43 @@
+231207 150135.656|CONFIG|qtp1613095350-25|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+231207 150135.656|INFO|qtp1613095350-25|info|
+231207 150135.656|INFO|qtp1613095350-25|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+231207 150135.656|INFO|qtp1613095350-25|info|Login: team150 (aka team150)
+231207 150135.666|INFO|qtp1613095350-25|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+231207 150135.666|INFO|qtp1613095350-25|startLog|Process id is 12696@DESKTOP-D75BQTV
+231207 150135.666|INFO|qtp1613095350-25|info|Contacting server at localhost:50002 as TEAM150 @ site 0
+231207 150135.666|INFO|qtp1613095350-25|info|sendLoginRequest start - sending from TEAM150 @ site 0
+231207 150135.666|INFO|qtp1613095350-25|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #3 TEAM150 @ site 0 -> SERVER0 @ site 0
+231207 150135.666|INFO|qtp1613095350-25|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #3 TEAM150 @ site 0 -> SERVER0 @ site 0
+231207 150135.666|INFO|Thread-27|run|send(Serializable)
+231207 150135.666|INFO|qtp1613095350-25|info|sendLoginRequest end - packet sent.
+231207 150135.682|INFO|Thread-26|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=localhost/127.0.0.1,port=50002,localport=60168]--4988178220234632163 key is com.sun.crypto.provider.DESKey@fffe73e5
+231207 150135.682|INFO|Thread-26|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+231207 150135.682|INFO|Thread-26|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    d0700b25 baa22df7 6738d83f f39e9920 559b9aef b255b1ab b06cc366 1bd450e3
+    4ac9c980 f7df4751 c83c8c99 5dee7bec 03015ffd a00808e8 dd2d0ec6 0af80868
+    2f947926 5237746a 2ab46b50 837da75f 5ca09529 19dbbdff 5739482f f5db063f
+    cef69a85 abc9e726 134d6799 4ffab125 5f32ce2a 6f83babb c627c8ce da121ebd
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+231207 150135.682|INFO|Thread-26|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@4b693774
+231207 150135.698|INFO|Thread-26|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+231207 150135.698|INFO|Thread-28|info| receiveObject(S) start got Packet[LOGIN_FAILED] #15 SERVER0 @ site 1 -> TEAM150 @ site 0
+231207 150135.713|INFO|Thread-28|dumpPacket|Packet LOGIN_FAILED (Seq #15, o#15 ) recieveObject
+231207 150135.713|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.113) (Contest Id: TestWoods2--1313767157070405065)
+231207 150135.713|INFO|Thread-28|dumpPacket|    To: TEAM150 @ site 0
+231207 150135.713|INFO|Thread-28|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+231207 150135.713|INFO|Thread-28|info|handlePacket start Packet[LOGIN_FAILED] #15 SERVER0 @ site 1 -> TEAM150 @ site 0
+231207 150135.713|INFO|Thread-28|dumpPacket|Packet LOGIN_FAILED (Seq #15, o#15 ) handlePacket
+231207 150135.713|INFO|Thread-28|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 192.168.1.113) (Contest Id: TestWoods2--1313767157070405065)
+231207 150135.713|INFO|Thread-28|dumpPacket|    To: TEAM150 @ site 0
+231207 150135.713|INFO|Thread-28|dumpPacket|   key: MESSAGE_STRING is: java.lang.String Invalid password
+231207 150135.719|INFO|Thread-28|info| receiveObject(S) end   got Packet[LOGIN_FAILED] #15 SERVER0 @ site 1 -> TEAM150 @ site 0
+231207 154818.988|INFO|Thread-26|connectionDropped|connectionDropped(ConnectionHandlerID myConnectionID) 

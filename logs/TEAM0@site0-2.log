@@ -1,0 +1,25 @@
+221210 123522.188|CONFIG|qtp1613095350-176421|setFileHandlers|Now logging to C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1\logs directory.
+221210 123522.189|INFO|qtp1613095350-176421|info|
+221210 123522.189|INFO|qtp1613095350-176421|info|Version 9 () Java ver 18.0.2.1 build  Windows 11 10.0 (amd64) 
+221210 123522.189|INFO|qtp1613095350-176421|info|Login: teams44 (aka team0)
+221210 123522.189|INFO|qtp1613095350-176421|startLog|Working directory is C:\Users\18328\Desktop\pc2\WebTeamInterface-1.1
+221210 123522.189|INFO|qtp1613095350-176421|startLog|Process id is 22344@DESKTOP-D75BQTV
+221210 123522.190|INFO|qtp1613095350-176421|info|Contacting server at 212.212.212.212:50002 as TEAM0 @ site 0
+221210 123522.190|INFO|qtp1613095350-176421|info|sendLoginRequest start - sending from TEAM0 @ site 0
+221210 123522.190|INFO|qtp1613095350-176421|sendToLocalServer|Sending packet to server Packet[LOGIN_REQUEST] #849 TEAM0 @ site 0 -> SERVER0 @ site 0
+221210 123522.190|INFO|qtp1613095350-176421|sendToLocalServer|Sent    packet to server Packet[LOGIN_REQUEST] #849 TEAM0 @ site 0 -> SERVER0 @ site 0
+221210 123522.190|INFO|Thread-207369|run|send(Serializable)
+221210 123522.190|INFO|qtp1613095350-176421|info|sendLoginRequest end - packet sent.
+221210 123522.191|INFO|Thread-207368|receive|public void receive(SealedObject TransportPacket, ConnectionHandlerID connectionHandlerID)
+221210 123522.192|INFO|Thread-207370|info| receiveObject(S) start got Packet[LOGIN_FAILED] #6975 SERVER0 @ site 1 -> TEAM0 @ site 0
+221210 123522.192|INFO|Thread-207370|dumpPacket|Packet LOGIN_FAILED (Seq #6975, o#6975 ) recieveObject
+221210 123522.192|INFO|Thread-207370|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Contest-4511288556462302159)
+221210 123522.192|INFO|Thread-207370|dumpPacket|    To: TEAM0 @ site 0
+221210 123522.192|INFO|Thread-207370|dumpPacket|   key: MESSAGE_STRING is: java.lang.String No such account
+221210 123522.192|INFO|Thread-207370|info|handlePacket start Packet[LOGIN_FAILED] #6975 SERVER0 @ site 1 -> TEAM0 @ site 0
+221210 123522.192|INFO|Thread-207370|dumpPacket|Packet LOGIN_FAILED (Seq #6975, o#6975 ) handlePacket
+221210 123522.192|INFO|Thread-207370|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (DESKTOP-D75BQTV @ 212.212.212.212) (Contest Id: Contest-4511288556462302159)
+221210 123522.192|INFO|Thread-207370|dumpPacket|    To: TEAM0 @ site 0
+221210 123522.192|INFO|Thread-207370|dumpPacket|   key: MESSAGE_STRING is: java.lang.String No such account
+221210 123522.192|INFO|Thread-207370|info| receiveObject(S) end   got Packet[LOGIN_FAILED] #6975 SERVER0 @ site 1 -> TEAM0 @ site 0
+221210 150258.270|INFO|Thread-207368|connectionDropped|connectionDropped(ConnectionHandlerID myConnectionID) 
